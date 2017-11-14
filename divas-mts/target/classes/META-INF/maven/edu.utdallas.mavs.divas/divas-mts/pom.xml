@@ -1,0 +1,42 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<!-- ======================================= -->
+	<!-- ==== Project Information === -->
+	<!-- ======================================= -->
+
+	<parent>
+		<groupId>edu.utdallas.mavs.divas</groupId>
+		<artifactId>divas</artifactId>
+		<version>4.0.19-SNAPSHOT</version>
+	</parent>
+	<artifactId>divas-mts</artifactId>
+	<name>divas-mts</name>
+	<packaging>jar</packaging>
+	<description>Messaging and Transport Services</description>
+
+	<!-- ======================================= -->
+	<!-- ==== Dependencies === -->
+	<!-- ======================================= -->
+
+	<dependencies>
+		<!-- Project Dependencies -->
+		<dependency>
+			<groupId>edu.utdallas.mavs.divas</groupId>
+			<artifactId>divas-utils</artifactId>
+		</dependency>
+
+		<!-- General Dependencies -->
+		<dependency>
+			<groupId>com.google.inject</groupId>
+			<artifactId>guice</artifactId>
+			<version>${guice.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.activemq</groupId>
+			<artifactId>activemq-core</artifactId>
+			<version>${activeMQ.version}</version>
+		</dependency>
+	</dependencies>
+</project>

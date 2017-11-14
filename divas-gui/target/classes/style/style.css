@@ -1,0 +1,22 @@
+
+.root {
+	-fx-background-image: url("background.jpg");
+	-fx-background-image-repeat: repeat;	
+    -fx-font-size: 20pt;     
+    -fx-font-family: "Tahoma";
+    -fx-base: #DFB951;
+    -fx-background: #A78732;
+    -fx-focus-color: #B6A678;    
+}
+
+.slider{
+    -fx-border-color: white;
+    -fx-border-style: dashed;
+    -fx-border-width: 2;
+}
+
+.label {
+	-fx-font-size: 30pt;     
+    -fx-font-family: "Tahoma";
+    -fx-text-fill: black;
+}

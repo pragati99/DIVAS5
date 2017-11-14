@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema" xmlns:agspec="divas/spec/agent"
+	targetNamespace="divas/spec/agent" elementFormDefault="qualified">
+
+	<element name="MetaAgent">
+		<complexType>
+			<sequence>
+				<element name="DivasAttribute"
+					type="agspec:DivasAttribute" minOccurs="0" maxOccurs="unbounded" />
+				<element name="DivasTask" type="agspec:DivasTask" minOccurs="0" maxOccurs="unbounded" ></element>
+			</sequence>
+			<attribute name="name" type="string" use="required"></attribute>
+			<attribute name="parent" type="string" use="optional"></attribute>
+		</complexType>
+	</element>
+
+	<element name="AgentSpec">
+		<complexType>
+			<sequence>
+				<element name="AgentAttribute" type="agspec:AgentAttribute"
+					minOccurs="0" maxOccurs="unbounded" />
+					<element name="DivasTask" type="agspec:DivasTask" minOccurs="0" maxOccurs="unbounded" ></element>
+			</sequence>
+			<attribute name="name" type="string" use="required"></attribute>
+			<attribute name="metaname" type="string" use="required"></attribute>
+		</complexType>
+	</element>
+
+	<complexType name="DivasTask">
+			<sequence>
+				<element name="DivasResult" type="agspec:AgentAttribute"
+					minOccurs="0" maxOccurs="unbounded" />
+				<element name="DivasPrereq" type="string" minOccurs="0"
+						maxOccurs="unbounded"></element>
+				<element name="DivasInput" type="agspec:AgentAttribute" minOccurs="0"
+						maxOccurs="unbounded"></element>		
+			</sequence>
+			<attribute name="name" type="string" use="required"></attribute>
+			<attribute name="value" type="string" use="optional"></attribute>
+			<attribute name="valuex" type="string" use="optional"></attribute>
+			<attribute name="valuey" type="string" use="optional"></attribute>
+			<attribute name="valuez" type="string" use="optional"></attribute>
+	</complexType>
+
+	<complexType name="DivasAttribute">
+		<sequence>
+			<element name="constraint" minOccurs="0" maxOccurs="unbounded">
+				<complexType>
+					<attribute name="name" type="string" use="required">
+					</attribute>
+					<attribute name="value" type="string" use="optional">
+					</attribute>
+				</complexType>
+			</element>
+			<element name="category">
+				<simpleType>
+					<restriction base="string">
+						<enumeration value="Physical"></enumeration>
+						<enumeration value="Mental"></enumeration>
+					</restriction>
+				</simpleType>
+			</element>
+		</sequence>
+		<attribute name="name" type="string" use="required"></attribute>
+		<attribute name="type" type="string" use="required"></attribute>
+		<attribute name="unit" type="string" use="optional"></attribute>
+		<attribute name="default" type="string" use="optional"></attribute>
+		<attribute name="defaultx" type="string" use="optional"></attribute>
+		<attribute name="defaulty" type="string" use="optional"></attribute>
+		<attribute name="defaultz" type="string" use="optional"></attribute>
+	</complexType>
+
+	<complexType name="AgentAttribute">
+		<sequence>
+			<element name="category">
+				<simpleType>
+					<restriction base="string">
+						<enumeration value="Physical"></enumeration>
+						<enumeration value="Mental"></enumeration>
+					</restriction>
+				</simpleType>
+			</element>
+		</sequence>
+		<attribute name="name" type="string" use="required"></attribute>
+		<attribute name="type" type="string" use="required"></attribute>
+		<attribute name="value" type="string" use="optional"></attribute>
+		<attribute name="unit" type="string" use="optional"></attribute>
+		<attribute name="valuex" type="string" use="optional"></attribute>
+		<attribute name="valuey" type="string" use="optional"></attribute>
+		<attribute name="valuez" type="string" use="optional"></attribute>
+	</complexType>
+
+</schema>

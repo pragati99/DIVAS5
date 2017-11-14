@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<environment>
+<cellBounds maxX="400.0" maxY="400.0" maxZ="400.0" minX="-400.0" minY="-400.0" minZ="-400.0"/>
+<envObject collidable="false" description="floor" id="-1" image="" material="cement" modelName="floor" name="" onFire="false" posX="0.0" posY="0.0" posZ="0.0" rotW="0.0" rotX="0.0" rotY="0.0" rotZ="0.0" scaleX="400.0" scaleY="0.1" scaleZ="400.0" type="floor" visualized="true"/>
+</environment>

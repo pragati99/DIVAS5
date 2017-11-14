@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Events xmlns="">
+	<eventType name="Explosion" type="Explosion" description="Explosion"
+		mode="ADD_EXPLOSION" image="cursors/bomb_cursor.png"></eventType>
+	<eventType name="Explosion No Smoke" type="Explosion No Smoke"
+		description="Explosion No Smoke" mode="ADD_EXPLOSION_NO_SMOKE"
+		image="cursors/bomb_nosmoke_cursor.png"></eventType>
+	<eventType name="Fireworks" type="Fireworks" description="Fireworks"
+		mode="ADD_FIREWORKS" image="cursors/fireworks-icon.png"></eventType>
+	<eventType name="Add tresure" type="Add tresure" description="Add tresure"
+		mode="ADD_TREASURE" image="cursors/treasure_cursor.png"></eventType>
+	<eventType name="Add drums" type="Add drums" description="Add drums"
+		mode="ADD_DRUMS" image="cursors/drum.png"></eventType>
+	<eventType name="Add grill" type="Add grill" description="Add grill"
+		mode="ADD_GRILL" image="cursors/grill-icon.png"></eventType>
+	<eventType name="Add spotlight" type="Add spotlight"
+		description="Add spotlight" mode="ADD_SPOTLIGHT" image="cursors/spotlight.png"></eventType>
+</Events>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<project name="maven-antrun-" default="main"  >
+<target name="main">
+  <copy todir="F:\eclipse_oxygen_workspace\divas4-master\divas\evacuation-simulation\target">
+    <fileset includes="*.properties" dir="F:\eclipse_oxygen_workspace\divas4-master\divas\evacuation-simulation"/>
+  </copy>
+</target>
+</project>

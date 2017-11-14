@@ -1,0 +1,1874 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<EnvironmentObjects xmlns="">
+
+	<envObjectType id="default" name="Default" type="default">
+
+		<envObject description="Box" modelName="box" name="Box"
+			type="box" material="brick" image="thumbnails/box.png" collidable="true">
+			<position x="0" y="0" z="20" />
+			<rotation x="0" y="0" z="0" w="0" />
+			<scale x="4" y="3" z="4" />
+		</envObject>
+
+		<envObject description="Door" modelName="door" name="Door"
+			type="door" material="door" image="thumbnails/door.png" collidable="false">
+			<position x="0" y="0" z="50" />
+			<rotation x="0" y="0" z="0" w="0" />
+			<scale x="2" y="20" z="2" />
+		</envObject>
+
+		<envObject description="Floor" modelName="floor" name="Floor"
+			type="floor" material="cement" image="thumbnails/floor.png"
+			collidable="false">
+			<position x="0" y="0" z="0" />
+			<rotation x="0" y="0" z="0" w="0" />
+			<scale x="30" y=".1f" z="20" />
+		</envObject>
+
+		<envObject description="Grass" modelName="grass" name="Grass"
+			type="grass" material="grass" image="thumbnails/grass.png"
+			collidable="false">
+			<position x="0" y="0" z="0" />
+			<rotation x="0" y="0" z="0" w="0" />
+			<scale x="20" y=".2" z="20" />
+		</envObject>
+		<envObject description="Wall North/South" modelName="box"
+			name="Wall North / South" type="wall" material="cut20L"
+			image="thumbnails/wallNS.png" collidable="true">
+			<position x="0" y="0" z="0" />
+			<rotation x="0" y="0" z="0" w="0" />
+			<scale x=".5f" y="8" z="30" />
+		</envObject>
+
+		<envObject description="Wall West/East" modelName="box"
+			name="Wall West / East" type="wall" material="cut20L" image="thumbnails/wallWE.png"
+			collidable="true">
+			<position x="0" y="0" z="0" />
+			<rotation x="0" y="0" z="0" w="0" />
+			<scale x="30" y="8" z=".5f" />
+		</envObject>
+
+	</envObjectType>
+
+	<envObjectType id="officeFurniture" name="Office Furniture"
+		type="officeFurniture">
+
+		<envObject description="Arm Chair 1" modelName="objects/armchair01.j3o"
+			name="Arm chair 1" type="3DModel" material=""
+			image="thumbnails/armchair01.png" collidable="true">
+			<position x="100" y="0" z="100" />
+			<rotation x="0" y="0" z="0" w="0" />
+			<scale x="1.5" y="1.5" z="1.5" />
+		</envObject>
+
+		<envObject description="Chair 1" modelName="objects/chair01.j3o"
+			name="Chair 01" type="3DModel" material="" image="thumbnails/chair01.png"
+			collidable="true">
+			<position x="100" y="0" z="100" />
+			<rotation x="0" y="0" z="0" w="0" />
+			<scale x="1.5" y="1.5" z="1.5" />
+		</envObject>
+
+		<envObject description="Desk 1" modelName="objects/desk01.j3o"
+			name="Desk 01" type="3DModel" material="" image="thumbnails/desk01.png"
+			collidable="true">
+			<position x="100" y="0" z="100" />
+			<rotation x="0" y="0" z="0" w="0" />
+			<scale x="1.5" y="1.5" z="1.5" />
+		</envObject>
+
+		<envObject description="Desk 2" modelName="objects/desk02.j3o"
+			name="Desk 02" type="3DModel" material="" image="thumbnails/desk02.png"
+			collidable="true">
+			<position x="100" y="0" z="100" />
+			<rotation x="0" y="0" z="0" w="0" />
+			<scale x="1.5" y="1.5" z="1.5" />
+		</envObject>
+
+		<envObject description="Office Chair 1" modelName="objects/officechair01.j3o"
+			name="Office Chair 01" type="3DModel" material=""
+			image="thumbnails/officechair01.png" collidable="true">
+			<position x="100" y="0" z="100" />
+			<rotation x="0" y="0" z="0" w="0" />
+			<scale x="1.5" y="1.5" z="1.5" />
+		</envObject>
+
+		<envObject description="Office Chair 11" modelName="objects/officechair11.j3o"
+			name="Office Chair 11" type="3DModel" material=""
+			image="thumbnails/officechair11.png" collidable="true">
+			<position x="100" y="0" z="100" />
+			<rotation x="0" y="0" z="0" w="0" />
+			<scale x="1.5" y="1.5" z="1.5" />
+		</envObject>
+
+
+		<envObject description="Sofa 02" modelName="objects/sofa02.j3o"
+			name="Sofa 02" type="3DModel" material="" image="thumbnails/sofa02.png"
+			collidable="true">
+			<position x="100" y="0" z="100" />
+			<rotation x="0" y="0" z="0" w="0" />
+			<scale x="1.5" y="1.5" z="1.5" />
+		</envObject>
+
+		<envObject description="Wardrobe 01" modelName="objects/wardrobe01.j3o"
+			name="Wardrobe 01" type="3DModel" material=""
+			image="thumbnails/wardrobe01.png" collidable="true">
+			<position x="100" y="0" z="100" />
+			<rotation x="0" y="0" z="0" w="0" />
+			<scale x="1.5" y="1.5" z="1.5" />
+		</envObject>
+
+		<envObject description="Wardrobe 02" modelName="objects/wardrobe02.j3o"
+			name="Wardrobe 02" type="3DModel" material=""
+			image="thumbnails/wardrobe02.png" collidable="true">
+			<position x="100" y="0" z="100" />
+			<rotation x="0" y="0" z="0" w="0" />
+			<scale x="1.5" y="1.5" z="1.5" />
+		</envObject>
+
+	</envObjectType>	
+	<envObjectType id="Streets" name="Streets" type="Streets">
+		<envObject description="Cross Walk" modelName="Cross Walk"
+			name="Cross Walk" type="Cross Walk" material="Roads0059crosswalks"
+			image="streets/crossWalk.jpg" collidable="false">
+			<position x="0" y="0" z="0" />
+			<rotation x="0" y="0" z="0" w="0" />
+			<scale x="20" y="0.2" z="20" />
+		</envObject>
+
+		<envObject description="Parking Lot" modelName="parkingLot"
+			name="Parking Lot" type="Parking Lot" material="parkingLot"
+			image="streets/parkingLot.jpg" collidable="false">
+			<position x="100" y="0" z="100" />
+			<rotation x="0" y="0" z="0" w="0" />
+			<scale x="10" y="0.2" z="10" />
+		</envObject>
+
+		<envObject description="Parking Lot" modelName="parkingLot"
+			name="Parking Lot" type="Parking Lot" material="parkingLot_180"
+			image="streets/parkingLot_180.jpg" collidable="false">
+			<position x="100" y="0" z="100" />
+			<rotation x="0" y="0" z="0" w="0" />
+			<scale x="10" y="0.2" z="10" />
+		</envObject>
+
+		<envObject description="road" modelName="road" name="road"
+			type="road" material="Roads0059_4_S" image="streets/road.jpg"
+			collidable="false">
+			<position x="100" y="0" z="100" />
+			<rotation x="0" y="0" z="0" w="0" />
+			<scale x="10" y="0.2" z="10" />
+		</envObject>
+		<envObject description="road_horizntal" modelName="road_horizntal" name="road_horizntal"
+			type="road_horizntal" material="road_horizntal" image="streets/road_horizntal.jpg"
+			collidable="false">
+			<position x="100" y="0" z="100" />
+			<rotation x="0" y="0" z="0" w="0" />
+			<scale x="10" y="0.2" z="10" />
+		</envObject>
+		<envObject description="flat road" modelName="flat road"
+			name="flat road" type="flat road" material="Roads_flat" image="streets/Roads_flat.jpg"
+			collidable="false">
+			<position x="100" y="0" z="100" />
+			<rotation x="0" y="0" z="0" w="0" />
+			<scale x="10" y="0.2" z="10" />
+		</envObject>
+		<envObject description="stopLight" modelName="streets/stopLight.j3o"
+			name="stopLight" type="3DModel" material="" image="streets/traffic_light.jpg"
+			collidable="false">
+			<position x="100" y="0" z="100" />
+			<rotation x="0" y="0" z="0" w="0" />
+			<scale x="10" y="10" z="10" />
+		</envObject>
+		<envObject description="street" modelName="street1" name="street"
+			type="street" material="Roads0059_r" image="streets/street1.jpg"
+			collidable="false">
+			<position x="100" y="0" z="100" />
+			<rotation x="0" y="0" z="0" w="0" />
+			<scale x="20" y="0.2" z="20" />
+		</envObject>
+	</envObjectType>
+	
+	<envObjectType id="Plants" name="Plants" type="Plants">
+	
+		<envObject description="tree" modelName="objects/tree_elm.j3o"
+			name="tree" type="3DModel" material="" image="thumbnails/tree_elm.png"
+			collidable="true">
+			<position x="100" y="0" z="100" />
+			<rotation x="0" y="0" z="0" w="0" />
+			<scale x="10" y="10" z="10" />
+		</envObject>
+		
+		<envObject description="Palm tree" modelName="objects/tree_palm.j3o"
+			name="Palm tree" type="3DModel" material="" image="thumbnails/tree_palm.png"
+			collidable="true">
+			<position x="100" y="0" z="100" />
+			<rotation x="0" y="0" z="-1" w="1" />
+			<scale x="10" y="10" z="10" />
+		</envObject>
+		<envObject description="Fancy tree" modelName="objects/Tree.mesh.j3o"
+			name="Fancy tree" type="3DModel" material="" image="thumbnails/tree_fancy.png"
+			collidable="true">
+			<position x="100" y="0" z="100" />
+			<rotation x="0" y="0" z="0" w="0" />
+			<scale x="3" y="3" z="3" />
+		</envObject>
+
+	</envObjectType>
+	<envObjectType id="Vehicles" name="Vehicles" type="Vehicles">
+
+		<envObject description="H2" modelName="objects/H2.j3o" name="H2"
+			type="3DModel" material="" image="thumbnails/H2.PNG" collidable="true">
+			<position x="100" y="0" z="100" />
+			<rotation x="0" y="0" z="0" w="0" />
+			<scale x="4" y="3" z="6.5" />
+		</envObject>
+		<envObject description="Viper" modelName="objects/viper.j3o"
+			name="Viper" type="3DModel" material="" image="thumbnails/viper.PNG"
+			collidable="true">
+			<position x="100" y="0" z="100" />
+			<rotation x="0" y="0" z="0" w="0" />
+			<scale x="3.5" y="2.5" z="6" />
+		</envObject>
+		<envObject description="Yugo" modelName="objects/yugo.j3o"
+			name="Yugo" type="3DModel" material="" image="thumbnails/yugo.PNG"
+			collidable="true">
+			<position x="100" y="0" z="100" />
+			<rotation x="0" y="0" z="0" w="0" />
+			<scale x="3" y="2.5" z="4" />
+		</envObject>
+		<envObject description="isuzu" modelName="objects/isuzu.j3o"
+			name="isuzu" type="3DModel" material="" image="thumbnails/isuzu.PNG"
+			collidable="true">
+			<position x="100" y="0" z="100" />
+			<rotation x="0" y="0" z="0" w="0" />
+			<scale x="3.5" y="3" z="6.5" />
+		</envObject>
+		<envObject description="audi" modelName="objects/car_audi.j3o"
+			name="audi" type="3DModel" material="" image="thumbnails/audi.PNG"
+			collidable="true">
+			<position x="100" y="0" z="100" />
+			<rotation x="0" y="0" z="0" w="0" />
+			<scale x="3.5" y="3" z="6.5" />
+		</envObject>
+	</envObjectType>
+	<envObjectType id="Commercial_Buildings" name="Commercial_Buildings" type="Commercial_Buildings">
+		<envObject description="Commercial_Buildings1" modelName="objects/building-commercial_01-max7.j3o"
+			name="Commercial_Buildings1" type="3DModel" material="" image="thumbnails/building-commercial_01-max7.PNG"
+			collidable="true">
+			<position x="100" y="0" z="100" />
+			<rotation x="0" y="0" z="0" w="0" />
+			<scale x="10" y="10" z="10" />
+		</envObject>
+		<envObject description="Commercial_Buildings2" modelName="objects/building-commercial_02-max7.j3o"
+			name="Commercial_Buildings2" type="3DModel" material="" image="thumbnails/building-commercial_02-max7.PNG"
+			collidable="true">
+			<position x="100" y="0" z="100" />
+			<rotation x="0" y="0" z="0" w="0" />
+			<scale x="10" y="10" z="10" />
+		</envObject>
+		<envObject description="Commercial_Buildings3" modelName="objects/building-commercial_03-max7.j3o"
+			name="Commercial_Buildings3" type="3DModel" material="" image="thumbnails/building-commercial_03-max7.PNG"
+			collidable="true">
+			<position x="100" y="0" z="100" />
+			<rotation x="0" y="0" z="0" w="0" />
+			<scale x="10" y="10" z="10" />
+		</envObject>
+		<envObject description="Commercial_Buildings4" modelName="objects/building-commercial_04-max7.j3o"
+			name="Commercial_Buildings4" type="3DModel" material="" image="thumbnails/building-commercial_04-max7.PNG"
+			collidable="true">
+			<position x="100" y="0" z="100" />
+			<rotation x="0" y="0" z="0" w="0" />
+			<scale x="10" y="10" z="10" />
+		</envObject>
+		<envObject description="Commercial_Buildings5" modelName="objects/building-commercial_05-max7.j3o"
+			name="Commercial_Buildings5" type="3DModel" material="" image="thumbnails/building-commercial_05-max7.PNG"
+			collidable="true">
+			<position x="100" y="0" z="100" />
+			<rotation x="0" y="0" z="0" w="0" />
+			<scale x="10" y="10" z="10" />
+		</envObject>
+		<envObject description="Commercial_Buildings6" modelName="objects/building-commercial_06-max7.j3o"
+			name="Commercial_Buildings6" type="3DModel" material="" image="thumbnails/building-commercial_06-max7.PNG"
+			collidable="true">
+			<position x="100" y="0" z="100" />
+			<rotation x="0" y="0" z="0" w="0" />
+			<scale x="10" y="10" z="10" />
+		</envObject>
+		<envObject description="Commercial_Buildings7" modelName="objects/building-commercial_07-max7.j3o"
+			name="Commercial_Buildings7" type="3DModel" material="" image="thumbnails/building-commercial_07-max7.PNG"
+			collidable="true">
+			<position x="100" y="0" z="100" />
+			<rotation x="0" y="0" z="0" w="0" />
+			<scale x="10" y="10" z="10" />
+		</envObject>
+		<envObject description="Commercial_Buildings8" modelName="objects/building-commercial_08-max7.j3o"
+			name="Commercial_Buildings8" type="3DModel" material="" image="thumbnails/building-commercial_08-max7.PNG"
+			collidable="true">
+			<position x="100" y="0" z="100" />
+			<rotation x="0" y="0" z="0" w="0" />
+			<scale x="10" y="10" z="10" />
+		</envObject>
+		<envObject description="Commercial_Buildings9" modelName="objects/building-commercial_09-max7.j3o"
+			name="Commercial_Buildings9" type="3DModel" material="" image="thumbnails/building-commercial_09-max7.PNG"
+			collidable="true">
+			<position x="100" y="0" z="100" />
+			<rotation x="0" y="0" z="0" w="0" />
+			<scale x="10" y="10" z="10" />
+		</envObject>
+		<envObject description="Commercial_Buildings10" modelName="objects/building-commercial_10-max7.j3o"
+			name="Commercial_Buildings10" type="3DModel" material="" image="thumbnails/building-commercial_10-max7.PNG"
+			collidable="true">
+			<position x="100" y="0" z="100" />
+			<rotation x="0" y="0" z="0" w="0" />
+			<scale x="10" y="10" z="10" />
+		</envObject>
+		<envObject description="Commercial_Buildings12" modelName="objects/building-commercial_12-max7.j3o"
+			name="Commercial_Buildings12" type="3DModel" material="" image="thumbnails/building-commercial_12-max7.PNG"
+			collidable="true">
+			<position x="100" y="0" z="100" />
+			<rotation x="0" y="0" z="0" w="0" />
+			<scale x="10" y="10" z="10" />
+		</envObject>
+		<envObject description="Commercial_Buildings13" modelName="objects/building-commercial_13-max7.j3o"
+			name="Commercial_Buildings13" type="3DModel" material="" image="thumbnails/building-commercial_13-max7.PNG"
+			collidable="true">
+			<position x="100" y="0" z="100" />
+			<rotation x="0" y="0" z="0" w="0" />
+			<scale x="10" y="10" z="10" />
+		</envObject>
+		<envObject description="Commercial_Buildings14" modelName="objects/building-commercial_14-max7.j3o"
+			name="Commercial_Buildings14" type="3DModel" material="" image="thumbnails/building-commercial_14-max7.PNG"
+			collidable="true">
+			<position x="100" y="0" z="100" />
+			<rotation x="0" y="0" z="0" w="0" />
+			<scale x="10" y="10" z="10" />
+		</envObject>
+		<envObject description="Commercial_Buildings15" modelName="objects/building-commercial_15-max7.j3o"
+			name="Commercial_Buildings15" type="3DModel" material="" image="thumbnails/building-commercial_15-max7.PNG"
+			collidable="true">
+			<position x="100" y="0" z="100" />
+			<rotation x="0" y="0" z="0" w="0" />
+			<scale x="10" y="10" z="10" />
+		</envObject>
+		<envObject description="Commercial_Buildings16" modelName="objects/building-commercial_16-max7.j3o"
+			name="Commercial_Buildings16" type="3DModel" material="" image="thumbnails/building-commercial_16-max7.PNG"
+			collidable="true">
+			<position x="100" y="0" z="100" />
+			<rotation x="0" y="0" z="0" w="0" />
+			<scale x="10" y="10" z="10" />
+		</envObject>
+		<envObject description="Commercial_Buildings17" modelName="objects/building-commercial_17-max7.j3o"
+			name="Commercial_Buildings17" type="3DModel" material="" image="thumbnails/building-commercial_17-max7.PNG"
+			collidable="true">
+			<position x="100" y="0" z="100" />
+			<rotation x="0" y="0" z="0" w="0" />
+			<scale x="10" y="10" z="10" />
+		</envObject>
+		<envObject description="Commercial_Buildings18" modelName="objects/building-commercial_18-max7.j3o"
+			name="Commercial_Buildings18" type="3DModel" material="" image="thumbnails/building-commercial_18-max7.PNG"
+			collidable="true">
+			<position x="100" y="0" z="100" />
+			<rotation x="0" y="0" z="0" w="0" />
+			<scale x="10" y="10" z="10" />
+		</envObject>
+		<envObject description="Commercial_Buildings19" modelName="objects/building-commercial_19-max7.j3o"
+			name="Commercial_Buildings19" type="3DModel" material="" image="thumbnails/building-commercial_19-max7.PNG"
+			collidable="true">
+			<position x="100" y="0" z="100" />
+			<rotation x="0" y="0" z="0" w="0" />
+			<scale x="10" y="10" z="10" />
+		</envObject>
+		<envObject description="Commercial_Buildings20" modelName="objects/building-commercial_20-max7.j3o"
+			name="Commercial_Buildings20" type="3DModel" material="" image="thumbnails/building-commercial_20-max7.PNG"
+			collidable="true">
+			<position x="100" y="0" z="100" />
+			<rotation x="0" y="0" z="0" w="0" />
+			<scale x="10" y="10" z="10" />
+		</envObject>
+		<envObject description="Commercial_Buildings21" modelName="objects/building-commercial_21-max7.j3o"
+			name="Commercial_Buildings21" type="3DModel" material="" image="thumbnails/building-commercial_21-max7.PNG"
+			collidable="true">
+			<position x="100" y="0" z="100" />
+			<rotation x="0" y="0" z="0" w="0" />
+			<scale x="10" y="10" z="10" />
+		</envObject>
+		<envObject description="Commercial_Buildings22" modelName="objects/building-commercial_22-max7.j3o"
+			name="Commercial_Buildings22" type="3DModel" material="" image="thumbnails/building-commercial_22-max7.PNG"
+			collidable="true">
+			<position x="100" y="0" z="100" />
+			<rotation x="0" y="0" z="0" w="0" />
+			<scale x="10" y="10" z="10" />
+		</envObject>
+		<envObject description="Commercial_Buildings23" modelName="objects/building-commercial_23-max7.j3o"
+			name="Commercial_Buildings23" type="3DModel" material="" image="thumbnails/building-commercial_23-max7.PNG"
+			collidable="true">
+			<position x="100" y="0" z="100" />
+			<rotation x="0" y="0" z="0" w="0" />
+			<scale x="10" y="10" z="10" />
+		</envObject>
+		<envObject description="Commercial_Buildings24" modelName="objects/building-commercial_24-max7.j3o"
+			name="Commercial_Buildings24" type="3DModel" material="" image="thumbnails/building-commercial_24-max7.PNG"
+			collidable="true">
+			<position x="100" y="0" z="100" />
+			<rotation x="0" y="0" z="0" w="0" />
+			<scale x="10" y="10" z="10" />
+		</envObject>
+		<envObject description="Commercial_Buildings25" modelName="objects/building-commercial_25-max7.j3o"
+			name="Commercial_Buildings25" type="3DModel" material="" image="thumbnails/building-commercial_25-max7.PNG"
+			collidable="true">
+			<position x="100" y="0" z="100" />
+			<rotation x="0" y="0" z="0" w="0" />
+			<scale x="10" y="10" z="10" />
+		</envObject>
+		<envObject description="Commercial_Buildings26" modelName="objects/building-commercial_26-max7.j3o"
+			name="Commercial_Buildings26" type="3DModel" material="" image="thumbnails/building-commercial_26-max7.PNG"
+			collidable="true">
+			<position x="100" y="0" z="100" />
+			<rotation x="0" y="0" z="0" w="0" />
+			<scale x="10" y="10" z="10" />
+		</envObject>
+		<envObject description="Commercial_Buildings27" modelName="objects/building-commercial_27-max7.j3o"
+			name="Commercial_Buildings27" type="3DModel" material="" image="thumbnails/building-commercial_27-max7.PNG"
+			collidable="true">
+			<position x="100" y="0" z="100" />
+			<rotation x="0" y="0" z="0" w="0" />
+			<scale x="10" y="20" z="10" />
+		</envObject>
+		<envObject description="Commercial_Buildings28" modelName="objects/building-commercial_28-max7.j3o"
+			name="Commercial_Buildings28" type="3DModel" material="" image="thumbnails/building-commercial_28-max7.PNG"
+			collidable="true">
+			<position x="100" y="0" z="100" />
+			<rotation x="0" y="0" z="0" w="0" />
+			<scale x="10" y="20" z="10" />
+		</envObject>
+		<envObject description="Commercial_Buildings29" modelName="objects/building-commercial_29-max7.j3o"
+			name="Commercial_Buildings29" type="3DModel" material="" image="thumbnails/building-commercial_29-max7.PNG"
+			collidable="true">
+			<position x="100" y="0" z="100" />
+			<rotation x="0" y="0" z="0" w="0" />
+			<scale x="10" y="10" z="10" />
+		</envObject>
+		<envObject description="Commercial_Buildings30" modelName="objects/building-commercial_30-max7.j3o"
+			name="Commercial_Buildings30" type="3DModel" material="" image="thumbnails/building-commercial_30-max7.PNG"
+			collidable="true">
+			<position x="100" y="0" z="100" />
+			<rotation x="0" y="0" z="0" w="0" />
+			<scale x="10" y="10" z="10" />
+		</envObject>
+		<envObject description="Commercial_Buildings31" modelName="objects/building-commercial_31-max7.j3o"
+			name="Commercial_Buildings31" type="3DModel" material="" image="thumbnails/building-commercial_31-max7.PNG"
+			collidable="true">
+			<position x="100" y="0" z="100" />
+			<rotation x="0" y="0" z="0" w="0" />
+			<scale x="10" y="20" z="10" />
+		</envObject>
+	</envObjectType>
+	<envObjectType id="Historical_Buildings" name="Historical_Buildings" type="Historical_Buildings">
+		<envObject description="Historical_Buildings1" modelName="objects/building-historical_01-max7.j3o"
+			name="Historical_Buildings1" type="3DModel" material="" image="thumbnails/building-historical_01-max7.PNG"
+			collidable="true">
+			<position x="100" y="0" z="100" />
+			<rotation x="0" y="0" z="0" w="0" />
+			<scale x="10" y="10" z="10" />
+		</envObject>
+		<envObject description="Historical_Buildings2" modelName="objects/building-historical_02-max7.j3o"
+			name="Historical_Buildings2" type="3DModel" material="" image="thumbnails/building-historical_02-max7.PNG"
+			collidable="true">
+			<position x="100" y="0" z="100" />
+			<rotation x="0" y="0" z="0" w="0" />
+			<scale x="10" y="10" z="10" />
+		</envObject>
+		<envObject description="Historical_Buildings3" modelName="objects/building-historical_03-max7.j3o"
+			name="Historical_Buildings3" type="3DModel" material="" image="thumbnails/building-historical_03-max7.PNG"
+			collidable="true">
+			<position x="100" y="0" z="100" />
+			<rotation x="0" y="0" z="0" w="0" />
+			<scale x="10" y="10" z="10" />
+		</envObject>
+		<envObject description="Historical_Buildings4" modelName="objects/building-historical_04-max7.j3o"
+			name="Historical_Buildings4" type="3DModel" material="" image="thumbnails/building-historical_04-max7.PNG"
+			collidable="true">
+			<position x="100" y="0" z="100" />
+			<rotation x="0" y="0" z="0" w="0" />
+			<scale x="10" y="10" z="10" />
+		</envObject>
+		<envObject description="Historical_Buildings5" modelName="objects/building-historical_05-max7.j3o"
+			name="Historical_Buildings5" type="3DModel" material="" image="thumbnails/building-historical_05-max7.PNG"
+			collidable="true">
+			<position x="100" y="0" z="100" />
+			<rotation x="0" y="0" z="0" w="0" />
+			<scale x="10" y="10" z="10" />
+		</envObject>
+		<envObject description="Historical_Buildings6" modelName="objects/building-historical_06-max7.j3o"
+			name="Historical_Buildings6" type="3DModel" material="" image="thumbnails/building-historical_06-max7.PNG"
+			collidable="true">
+			<position x="100" y="0" z="100" />
+			<rotation x="0" y="0" z="0" w="0" />
+			<scale x="10" y="10" z="10" />
+		</envObject>
+		<envObject description="Historical_Buildings7" modelName="objects/building-historical_07-max7.j3o"
+			name="Historical_Buildings7" type="3DModel" material="" image="thumbnails/building-historical_07-max7.PNG"
+			collidable="true">
+			<position x="100" y="0" z="100" />
+			<rotation x="0" y="0" z="0" w="0" />
+			<scale x="10" y="10" z="10" />
+		</envObject>
+		<envObject description="Historical_Buildings8" modelName="objects/building-historical_08-max7.j3o"
+			name="Historical_Buildings8" type="3DModel" material="" image="thumbnails/building-historical_08-max7.PNG"
+			collidable="true">
+			<position x="100" y="0" z="100" />
+			<rotation x="0" y="0" z="0" w="0" />
+			<scale x="10" y="10" z="10" />
+		</envObject>
+		<envObject description="Historical_Buildings9" modelName="objects/building-historical_09-max7.j3o"
+			name="Historical_Buildings9" type="3DModel" material="" image="thumbnails/building-historical_09-max7.PNG"
+			collidable="true">
+			<position x="100" y="0" z="100" />
+			<rotation x="0" y="0" z="0" w="0" />
+			<scale x="10" y="10" z="10" />
+		</envObject>
+		<envObject description="Historical_Buildings10" modelName="objects/building-historical_10-max7.j3o"
+			name="Historical_Buildings10" type="3DModel" material="" image="thumbnails/building-historical_10-max7.PNG"
+			collidable="true">
+			<position x="100" y="0" z="100" />
+			<rotation x="0" y="0" z="0" w="0" />
+			<scale x="10" y="10" z="10" />
+		</envObject>
+		<envObject description="Historical_Buildings11" modelName="objects/building-historical_11-max7.j3o"
+			name="Historical_Buildings11" type="3DModel" material="" image="thumbnails/building-historical_11-max7.PNG"
+			collidable="true">
+			<position x="100" y="0" z="100" />
+			<rotation x="0" y="0" z="0" w="0" />
+			<scale x="10" y="10" z="10" />
+		</envObject>
+		<envObject description="Historical_Buildings12" modelName="objects/building-historical_12-max7.j3o"
+			name="Historical_Buildings12" type="3DModel" material="" image="thumbnails/building-historical_12-max7.PNG"
+			collidable="true">
+			<position x="100" y="0" z="100" />
+			<rotation x="0" y="0" z="0" w="0" />
+			<scale x="10" y="10" z="10" />
+		</envObject>
+		<envObject description="Historical_Buildings13" modelName="objects/building-historical_13-max7.j3o"
+			name="Historical_Buildings13" type="3DModel" material="" image="thumbnails/building-historical_13-max7.PNG"
+			collidable="true">
+			<position x="100" y="0" z="100" />
+			<rotation x="0" y="0" z="0" w="0" />
+			<scale x="10" y="10" z="10" />
+		</envObject>
+		<envObject description="Historical_Buildings14" modelName="objects/building-historical_14-max7.j3o"
+			name="Historical_Buildings14" type="3DModel" material="" image="thumbnails/building-historical_14-max7.PNG"
+			collidable="true">
+			<position x="100" y="0" z="100" />
+			<rotation x="0" y="0" z="0" w="0" />
+			<scale x="10" y="10" z="10" />
+		</envObject>
+		<envObject description="Historical_Buildings15" modelName="objects/building-historical_15-max7.j3o"
+			name="Historical_Buildings15" type="3DModel" material="" image="thumbnails/building-historical_15-max7.PNG"
+			collidable="true">
+			<position x="100" y="0" z="100" />
+			<rotation x="0" y="0" z="0" w="0" />
+			<scale x="10" y="10" z="10" />
+		</envObject>
+		<envObject description="Historical_Buildings16" modelName="objects/building-historical_16-max7.j3o"
+			name="Historical_Buildings16" type="3DModel" material="" image="thumbnails/building-historical_16-max7.PNG"
+			collidable="true">
+			<position x="100" y="0" z="100" />
+			<rotation x="0" y="0" z="0" w="0" />
+			<scale x="10" y="10" z="10" />
+		</envObject>
+		<envObject description="Historical_Buildings17" modelName="objects/building-historical_17-max7.j3o"
+			name="Historical_Buildings17" type="3DModel" material="" image="thumbnails/building-historical_17-max7.PNG"
+			collidable="true">
+			<position x="100" y="0" z="100" />
+			<rotation x="0" y="0" z="0" w="0" />
+			<scale x="10" y="10" z="10" />
+		</envObject>
+		<envObject description="Historical_Buildings18" modelName="objects/building-historical_18-max7.j3o"
+			name="Historical_Buildings18" type="3DModel" material="" image="thumbnails/building-historical_18-max7.PNG"
+			collidable="true">
+			<position x="100" y="0" z="100" />
+			<rotation x="0" y="0" z="0" w="0" />
+			<scale x="10" y="10" z="10" />
+		</envObject>
+		<envObject description="Historical_Buildings19" modelName="objects/building-historical_19-max7.j3o"
+			name="Historical_Buildings19" type="3DModel" material="" image="thumbnails/building-historical_19-max7.PNG"
+			collidable="true">
+			<position x="100" y="0" z="100" />
+			<rotation x="0" y="0" z="0" w="0" />
+			<scale x="10" y="10" z="10" />
+		</envObject>
+		<envObject description="Historical_Buildings20" modelName="objects/building-historical_20-max7.j3o"
+			name="Historical_Buildings20" type="3DModel" material="" image="thumbnails/building-historical_20-max7.PNG"
+			collidable="true">
+			<position x="100" y="0" z="100" />
+			<rotation x="0" y="0" z="0" w="0" />
+			<scale x="10" y="10" z="10" />
+		</envObject>
+		<envObject description="Historical_Buildings21" modelName="objects/building-historical_21-max7.j3o"
+			name="Historical_Buildings21" type="3DModel" material="" image="thumbnails/building-historical_21-max7.PNG"
+			collidable="true">
+			<position x="100" y="0" z="100" />
+			<rotation x="0" y="0" z="0" w="0" />
+			<scale x="10" y="10" z="10" />
+		</envObject>
+		<envObject description="Historical_Buildings22" modelName="objects/building-historical_22-max7.j3o"
+			name="Historical_Buildings22" type="3DModel" material="" image="thumbnails/building-historical_22-max7.PNG"
+			collidable="true">
+			<position x="100" y="0" z="100" />
+			<rotation x="0" y="0" z="0" w="0" />
+			<scale x="10" y="10" z="10" />
+		</envObject>
+		<envObject description="Historical_Buildings23" modelName="objects/building-historical_23-max7.j3o"
+			name="Historical_Buildings23" type="3DModel" material="" image="thumbnails/building-historical_23-max7.PNG"
+			collidable="true">
+			<position x="100" y="0" z="100" />
+			<rotation x="0" y="0" z="0" w="0" />
+			<scale x="10" y="10" z="10" />
+		</envObject>
+		<envObject description="Historical_Buildings24" modelName="objects/building-historical_24-max7.j3o"
+			name="Historical_Buildings24" type="3DModel" material="" image="thumbnails/building-historical_24-max7.PNG"
+			collidable="true">
+			<position x="100" y="0" z="100" />
+			<rotation x="0" y="0" z="0" w="0" />
+			<scale x="10" y="10" z="10" />
+		</envObject>
+		<envObject description="Historical_Buildings25" modelName="objects/building-historical_25-max7.j3o"
+			name="Historical_Buildings25" type="3DModel" material="" image="thumbnails/building-historical_25-max7.PNG"
+			collidable="true">
+			<position x="100" y="0" z="100" />
+			<rotation x="0" y="0" z="0" w="0" />
+			<scale x="10" y="10" z="10" />
+		</envObject>
+		<envObject description="Historical_Buildings26" modelName="objects/building-historical_26-max7.j3o"
+			name="Historical_Buildings26" type="3DModel" material="" image="thumbnails/building-historical_26-max7.PNG"
+			collidable="true">
+			<position x="100" y="0" z="100" />
+			<rotation x="0" y="0" z="0" w="0" />
+			<scale x="10" y="10" z="10" />
+		</envObject>
+		<envObject description="Historical_Buildings27" modelName="objects/building-historical_27-max7.j3o"
+			name="Historical_Buildings27" type="3DModel" material="" image="thumbnails/building-historical_27-max7.PNG"
+			collidable="true">
+			<position x="100" y="0" z="100" />
+			<rotation x="0" y="0" z="0" w="0" />
+			<scale x="10" y="10" z="10" />
+		</envObject>
+		<envObject description="Historical_Buildings28" modelName="objects/building-historical_28-max7.j3o"
+			name="Historical_Buildings28" type="3DModel" material="" image="thumbnails/building-historical_28-max7.PNG"
+			collidable="true">
+			<position x="100" y="0" z="100" />
+			<rotation x="0" y="0" z="0" w="0" />
+			<scale x="10" y="10" z="10" />
+		</envObject>
+		<envObject description="Historical_Buildings29" modelName="objects/building-historical_29-max7.j3o"
+			name="Historical_Buildings29" type="3DModel" material="" image="thumbnails/building-historical_29-max7.PNG"
+			collidable="true">
+			<position x="100" y="0" z="100" />
+			<rotation x="0" y="0" z="0" w="0" />
+			<scale x="10" y="10" z="10" />
+		</envObject>
+	</envObjectType>
+	<envObjectType id="Hospital_Buildings" name="Hospital_Buildings" type="Hospital_Buildings">
+		<envObject description="Hospital_Buildings1" modelName="objects/building-hospital_01-max7.j3o"
+			name="Hospital_Buildings1" type="3DModel" material="" image="thumbnails/building-hospital_01-max7.PNG"
+			collidable="true">
+			<position x="100" y="0" z="100" />
+			<rotation x="0" y="0" z="0" w="0" />
+			<scale x="10" y="10" z="10" />
+		</envObject>
+		<envObject description="Hospital_Buildings2" modelName="objects/building-hospital_02-max7.j3o"
+			name="Hospital_Buildings2" type="3DModel" material="" image="thumbnails/building-hospital_02-max7.PNG"
+			collidable="true">
+			<position x="100" y="0" z="100" />
+			<rotation x="0" y="0" z="0" w="0" />
+			<scale x="10" y="10" z="10" />
+		</envObject>
+		<envObject description="Hospital_Buildings3" modelName="objects/building-hospital_03-max7.j3o"
+			name="Hospital_Buildings3" type="3DModel" material="" image="thumbnails/building-hospital_03-max7.PNG"
+			collidable="true">
+			<position x="100" y="0" z="100" />
+			<rotation x="0" y="0" z="0" w="0" />
+			<scale x="10" y="10" z="10" />
+		</envObject>
+		<envObject description="Hospital_Buildings4" modelName="objects/building-hospital_04-max7.j3o"
+			name="Hospital_Buildings4" type="3DModel" material="" image="thumbnails/building-hospital_04-max7.PNG"
+			collidable="true">
+			<position x="100" y="0" z="100" />
+			<rotation x="0" y="0" z="0" w="0" />
+			<scale x="10" y="10" z="10" />
+		</envObject>
+		<envObject description="Hospital_Buildings5" modelName="objects/building-hospital_05-max7.j3o"
+			name="Hospital_Buildings5" type="3DModel" material="" image="thumbnails/building-hospital_05-max7.PNG"
+			collidable="true">
+			<position x="100" y="0" z="100" />
+			<rotation x="0" y="0" z="0" w="0" />
+			<scale x="10" y="10" z="10" />
+		</envObject>
+		<envObject description="Hospital_Buildings6" modelName="objects/building-hospital_06-max7.j3o"
+			name="Hospital_Buildings6" type="3DModel" material="" image="thumbnails/building-hospital_06-max7.PNG"
+			collidable="true">
+			<position x="100" y="0" z="100" />
+			<rotation x="0" y="0" z="0" w="0" />
+			<scale x="10" y="10" z="10" />
+		</envObject>
+		<envObject description="Hospital_Buildings7" modelName="objects/building-hospital_07-max7.j3o"
+			name="Hospital_Buildings7" type="3DModel" material="" image="thumbnails/building-hospital_07-max7.PNG"
+			collidable="true">
+			<position x="100" y="0" z="100" />
+			<rotation x="0" y="0" z="0" w="0" />
+			<scale x="10" y="10" z="10" />
+		</envObject>
+	</envObjectType>
+	<envObjectType id="Industrial_Buildings" name="Industrial_Buildings" type="Industrial_Buildings">
+		<envObject description="Industrial_Buildings1" modelName="objects/building-industrial_01-max7.j3o"
+			name="Industrial_Buildings1" type="3DModel" material="" image="thumbnails/building-industrial_01-max7.PNG"
+			collidable="true">
+			<position x="100" y="0" z="100" />
+			<rotation x="0" y="0" z="0" w="0" />
+			<scale x="10" y="10" z="10" />
+		</envObject>
+		<envObject description="Industrial_Buildings2" modelName="objects/building-industrial_02-max7.j3o"
+			name="Industrial_Buildings2" type="3DModel" material="" image="thumbnails/building-industrial_02-max7.PNG"
+			collidable="true">
+			<position x="100" y="0" z="100" />
+			<rotation x="0" y="0" z="0" w="0" />
+			<scale x="10" y="10" z="10" />
+		</envObject>
+		<envObject description="Industrial_Buildings3" modelName="objects/building-industrial_03-max7.j3o"
+			name="Industrial_Buildings3" type="3DModel" material="" image="thumbnails/building-industrial_03-max7.PNG"
+			collidable="true">
+			<position x="100" y="0" z="100" />
+			<rotation x="0" y="0" z="0" w="0" />
+			<scale x="10" y="10" z="10" />
+		</envObject>
+		<envObject description="Industrial_Buildings4" modelName="objects/building-industrial_04-max7.j3o"
+			name="Industrial_Buildings4" type="3DModel" material="" image="thumbnails/building-industrial_04-max7.PNG"
+			collidable="true">
+			<position x="100" y="0" z="100" />
+			<rotation x="0" y="0" z="0" w="0" />
+			<scale x="10" y="10" z="10" />
+		</envObject>
+		<envObject description="Industrial_Buildings5" modelName="objects/building-industrial_05-max7.j3o"
+			name="Industrial_Buildings5" type="3DModel" material="" image="thumbnails/building-industrial_05-max7.PNG"
+			collidable="true">
+			<position x="100" y="0" z="100" />
+			<rotation x="0" y="0" z="0" w="0" />
+			<scale x="10" y="10" z="10" />
+		</envObject>
+		<envObject description="Industrial_Buildings6" modelName="objects/building-industrial_06-max7.j3o"
+			name="Industrial_Buildings6" type="3DModel" material="" image="thumbnails/building-industrial_06-max7.PNG"
+			collidable="true">
+			<position x="100" y="0" z="100" />
+			<rotation x="0" y="0" z="0" w="0" />
+			<scale x="10" y="10" z="10" />
+		</envObject>
+		<envObject description="Industrial_Buildings7" modelName="objects/building-industrial_07-max7.j3o"
+			name="Industrial_Buildings7" type="3DModel" material="" image="thumbnails/building-industrial_07-max7.PNG"
+			collidable="true">
+			<position x="100" y="0" z="100" />
+			<rotation x="0" y="0" z="0" w="0" />
+			<scale x="10" y="10" z="10" />
+		</envObject>
+		<envObject description="Industrial_Buildings8" modelName="objects/building-industrial_08-max7.j3o"
+			name="Industrial_Buildings8" type="3DModel" material="" image="thumbnails/building-industrial_08-max7.PNG"
+			collidable="true">
+			<position x="100" y="0" z="100" />
+			<rotation x="0" y="0" z="0" w="0" />
+			<scale x="10" y="10" z="10" />
+		</envObject>
+		<envObject description="Industrial_Buildings9" modelName="objects/building-industrial_09-max7.j3o"
+			name="Industrial_Buildings9" type="3DModel" material="" image="thumbnails/building-industrial_09-max7.PNG"
+			collidable="true">
+			<position x="100" y="0" z="100" />
+			<rotation x="0" y="0" z="0" w="0" />
+			<scale x="10" y="10" z="10" />
+		</envObject>
+		<envObject description="Industrial_Buildings10" modelName="objects/building-industrial_10-max7.j3o"
+			name="Industrial_Buildings10" type="3DModel" material="" image="thumbnails/building-industrial_10-max7.PNG"
+			collidable="true">
+			<position x="100" y="0" z="100" />
+			<rotation x="0" y="0" z="0" w="0" />
+			<scale x="10" y="10" z="10" />
+		</envObject>
+		<envObject description="Industrial_Buildings11" modelName="objects/building-industrial_11-max7.j3o"
+			name="Industrial_Buildings11" type="3DModel" material="" image="thumbnails/building-industrial_11-max7.PNG"
+			collidable="true">
+			<position x="100" y="0" z="100" />
+			<rotation x="0" y="0" z="0" w="0" />
+			<scale x="10" y="10" z="10" />
+		</envObject>
+		<envObject description="Industrial_Buildings12" modelName="objects/building-industrial_12-max7.j3o"
+			name="Industrial_Buildings12" type="3DModel" material="" image="thumbnails/building-industrial_12-max7.PNG"
+			collidable="true">
+			<position x="100" y="0" z="100" />
+			<rotation x="0" y="0" z="0" w="0" />
+			<scale x="10" y="10" z="10" />
+		</envObject>
+		<envObject description="Industrial_Buildings13" modelName="objects/building-industrial_13-max7.j3o"
+			name="Industrial_Buildings13" type="3DModel" material="" image="thumbnails/building-industrial_13-max7.PNG"
+			collidable="true">
+			<position x="100" y="0" z="100" />
+			<rotation x="0" y="0" z="0" w="0" />
+			<scale x="10" y="10" z="10" />
+		</envObject>
+		<envObject description="Industrial_Buildings14" modelName="objects/building-industrial_14-max7.j3o"
+			name="Industrial_Buildings14" type="3DModel" material="" image="thumbnails/building-industrial_14-max7.PNG"
+			collidable="true">
+			<position x="100" y="0" z="100" />
+			<rotation x="0" y="0" z="0" w="0" />
+			<scale x="10" y="10" z="10" />
+		</envObject>
+		<envObject description="Industrial_Buildings15" modelName="objects/building-industrial_15-max7.j3o"
+			name="Industrial_Buildings15" type="3DModel" material="" image="thumbnails/building-industrial_15-max7.PNG"
+			collidable="true">
+			<position x="100" y="0" z="100" />
+			<rotation x="0" y="0" z="0" w="0" />
+			<scale x="10" y="10" z="10" />
+		</envObject>
+	</envObjectType>
+	<envObjectType id="Mueseum_Buildings" name="Mueseum_Buildings" type="Mueseum_Buildings">
+		<envObject description="Mueseum_Buildings1" modelName="objects/building-museum_01-max7.j3o"
+			name="Mueseum_Buildings1" type="3DModel" material="" image="thumbnails/building-museum_01-max7.PNG"
+			collidable="true">
+			<position x="100" y="0" z="100" />
+			<rotation x="0" y="0" z="0" w="0" />
+			<scale x="10" y="10" z="10" />
+		</envObject>
+		<envObject description="Mueseum_Buildings2" modelName="objects/building-museum_02-max7.j3o"
+			name="Mueseum_Buildings2" type="3DModel" material="" image="thumbnails/building-museum_02-max7.PNG"
+			collidable="true">
+			<position x="100" y="0" z="100" />
+			<rotation x="0" y="0" z="0" w="0" />
+			<scale x="10" y="10" z="10" />
+		</envObject>
+		<envObject description="Mueseum_Buildings3" modelName="objects/building-museum_03-max7.j3o"
+			name="Mueseum_Buildings3" type="3DModel" material="" image="thumbnails/building-museum_03-max7.PNG"
+			collidable="true">
+			<position x="100" y="0" z="100" />
+			<rotation x="0" y="0" z="0" w="0" />
+			<scale x="10" y="10" z="10" />
+		</envObject>
+	</envObjectType>
+	<envObjectType id="Residential_Buildings" name="Residential_Buildings" type="Residential_Buildings">
+		<envObject description="Residential_Buildings1" modelName="objects/building-residential_01-max7.j3o"
+			name="Residential_Buildings1" type="3DModel" material="" image="thumbnails/building-residential_01-max7.PNG"
+			collidable="true">
+			<position x="100" y="0" z="100" />
+			<rotation x="0" y="0" z="0" w="0" />
+			<scale x="10" y="10" z="10" />
+		</envObject>
+		<envObject description="Residential_Buildings2" modelName="objects/building-residential_02-max7.j3o"
+			name="Residential_Buildings2" type="3DModel" material="" image="thumbnails/building-residential_02-max7.PNG"
+			collidable="true">
+			<position x="100" y="0" z="100" />
+			<rotation x="0" y="0" z="0" w="0" />
+			<scale x="10" y="10" z="10" />
+		</envObject>
+		<envObject description="Residential_Buildings3" modelName="objects/building-residential_03-max7.j3o"
+			name="Residential_Buildings3" type="3DModel" material="" image="thumbnails/building-residential_03-max7.PNG"
+			collidable="true">
+			<position x="100" y="0" z="100" />
+			<rotation x="0" y="0" z="0" w="0" />
+			<scale x="10" y="10" z="10" />
+		</envObject>
+		<envObject description="Residential_Buildings4" modelName="objects/building-residential_04-max7.j3o"
+			name="Residential_Buildings4" type="3DModel" material="" image="thumbnails/building-residential_04-max7.PNG"
+			collidable="true">
+			<position x="100" y="0" z="100" />
+			<rotation x="0" y="0" z="0" w="0" />
+			<scale x="10" y="10" z="10" />
+		</envObject>
+		<envObject description="Residential_Buildings5" modelName="objects/building-residential_05-max7.j3o"
+			name="Residential_Buildings5" type="3DModel" material="" image="thumbnails/building-residential_05-max7.PNG"
+			collidable="true">
+			<position x="100" y="0" z="100" />
+			<rotation x="0" y="0" z="0" w="0" />
+			<scale x="10" y="10" z="10" />
+		</envObject>
+		<envObject description="Residential_Buildings6" modelName="objects/building-residential_06-max7.j3o"
+			name="Residential_Buildings6" type="3DModel" material="" image="thumbnails/building-residential_06-max7.PNG"
+			collidable="true">
+			<position x="100" y="0" z="100" />
+			<rotation x="0" y="0" z="0" w="0" />
+			<scale x="10" y="10" z="10" />
+		</envObject>
+		<envObject description="Residential_Buildings7" modelName="objects/building-residential_07-max7.j3o"
+			name="Residential_Buildings7" type="3DModel" material="" image="thumbnails/building-residential_07-max7.PNG"
+			collidable="true">
+			<position x="100" y="0" z="100" />
+			<rotation x="0" y="0" z="0" w="0" />
+			<scale x="10" y="10" z="10" />
+		</envObject>
+		<envObject description="Residential_Buildings8" modelName="objects/building-residential_08-max7.j3o"
+			name="Residential_Buildings8" type="3DModel" material="" image="thumbnails/building-residential_08-max7.PNG"
+			collidable="true">
+			<position x="100" y="0" z="100" />
+			<rotation x="0" y="0" z="0" w="0" />
+			<scale x="10" y="10" z="10" />
+		</envObject>
+		<envObject description="Residential_Buildings9" modelName="objects/building-residential_09-max7.j3o"
+			name="Residential_Buildings9" type="3DModel" material="" image="thumbnails/building-residential_09-max7.PNG"
+			collidable="true">
+			<position x="100" y="0" z="100" />
+			<rotation x="0" y="0" z="0" w="0" />
+			<scale x="10" y="10" z="10" />
+		</envObject>
+		<envObject description="Residential_Buildings10" modelName="objects/building-residential_10-max7.j3o"
+			name="Residential_Buildings10" type="3DModel" material="" image="thumbnails/building-residential_10-max7.PNG"
+			collidable="true">
+			<position x="100" y="0" z="100" />
+			<rotation x="0" y="0" z="0" w="0" />
+			<scale x="10" y="10" z="10" />
+		</envObject>
+		<envObject description="Residential_Buildings11" modelName="objects/building-residential_11-max7.j3o"
+			name="Residential_Buildings11" type="3DModel" material="" image="thumbnails/building-residential_11-max7.PNG"
+			collidable="true">
+			<position x="100" y="0" z="100" />
+			<rotation x="0" y="0" z="0" w="0" />
+			<scale x="10" y="10" z="10" />
+		</envObject>
+		<envObject description="Residential_Buildings12" modelName="objects/building-residential_12-max7.j3o"
+			name="Residential_Buildings12" type="3DModel" material="" image="thumbnails/building-residential_12-max7.PNG"
+			collidable="true">
+			<position x="100" y="0" z="100" />
+			<rotation x="0" y="0" z="0" w="0" />
+			<scale x="10" y="10" z="10" />
+		</envObject>
+		<envObject description="Residential_Buildings13" modelName="objects/building-residential_13-max7.j3o"
+			name="Residential_Buildings13" type="3DModel" material="" image="thumbnails/building-residential_13-max7.PNG"
+			collidable="true">
+			<position x="100" y="0" z="100" />
+			<rotation x="0" y="0" z="0" w="0" />
+			<scale x="10" y="10" z="10" />
+		</envObject>
+		<envObject description="Residential_Buildings14" modelName="objects/building-residential_14-max7.j3o"
+			name="Residential_Buildings14" type="3DModel" material="" image="thumbnails/building-residential_14-max7.PNG"
+			collidable="true">
+			<position x="100" y="0" z="100" />
+			<rotation x="0" y="0" z="0" w="0" />
+			<scale x="10" y="10" z="10" />
+		</envObject>
+		<envObject description="Residential_Buildings15" modelName="objects/building-residential_15-max7.j3o"
+			name="Residential_Buildings15" type="3DModel" material="" image="thumbnails/building-residential_15-max7.PNG"
+			collidable="true">
+			<position x="100" y="0" z="100" />
+			<rotation x="0" y="0" z="0" w="0" />
+			<scale x="10" y="10" z="10" />
+		</envObject>
+	</envObjectType>
+	<envObjectType id="Residential_Buildings_Lux" name="Residential_Buildings_Lux" type="Residential_Buildings_Lux">
+		<envObject description="Residential_Buildings_Lux3" modelName="objects/building-residential-lux_03-max7.j3o"
+			name="Residential_Buildings_Lux3" type="3DModel" material="" image="thumbnails/building-residential-lux_03-max7.PNG"
+			collidable="true">
+			<position x="100" y="0" z="100" />
+			<rotation x="0" y="0" z="0" w="0" />
+			<scale x="10" y="10" z="10" />
+		</envObject>
+		<envObject description="Residential_Buildings_Lux4" modelName="objects/building-residential-lux_04-max7.j3o"
+			name="Residential_Buildings_Lux4" type="3DModel" material="" image="thumbnails/building-residential-lux_04-max7.PNG"
+			collidable="true">
+			<position x="100" y="0" z="100" />
+			<rotation x="0" y="0" z="0" w="0" />
+			<scale x="10" y="10" z="10" />
+		</envObject>
+		<envObject description="Residential_Buildings_Lux5" modelName="objects/building-residential-lux_05-max7.j3o"
+			name="Residential_Buildings_Lux5" type="3DModel" material="" image="thumbnails/building-residential-lux_05-max7.PNG"
+			collidable="true">
+			<position x="100" y="0" z="100" />
+			<rotation x="0" y="0" z="0" w="0" />
+			<scale x="10" y="10" z="10" />
+		</envObject>
+		<envObject description="Residential_Buildings_Lux6" modelName="objects/building-residential-lux_06-max7.j3o"
+			name="Residential_Buildings_Lux6" type="3DModel" material="" image="thumbnails/building-residential-lux_06-max7.PNG"
+			collidable="true">
+			<position x="100" y="0" z="100" />
+			<rotation x="0" y="0" z="0" w="0" />
+			<scale x="10" y="10" z="10" />
+		</envObject>
+		<envObject description="Residential_Buildings_Lux7" modelName="objects/building-residential-lux_07-max7.j3o"
+			name="Residential_Buildings_Lux7" type="3DModel" material="" image="thumbnails/building-residential-lux_07-max7.PNG"
+			collidable="true">
+			<position x="100" y="0" z="100" />
+			<rotation x="0" y="0" z="0" w="0" />
+			<scale x="10" y="10" z="10" />
+		</envObject>
+		<envObject description="Residential_Buildings_Lux8" modelName="objects/building-residential-lux_08-max7.j3o"
+			name="Residential_Buildings_Lux8" type="3DModel" material="" image="thumbnails/building-residential-lux_08-max7.PNG"
+			collidable="true">
+			<position x="100" y="0" z="100" />
+			<rotation x="0" y="0" z="0" w="0" />
+			<scale x="10" y="10" z="10" />
+		</envObject>
+	</envObjectType>
+	<envObjectType id="Scyscrapers_Buildings" name="Scyscrapers_Buildings" type="Scyscrapers_Buildings">
+		<envObject description="Scyscrapers_Buildings1" modelName="objects/building-scyscrapers_01-max7.j3o"
+			name="Scyscrapers_Buildings1" type="3DModel" material="" image="thumbnails/building-scyscrapers_01-max7.PNG"
+			collidable="true">
+			<position x="100" y="0" z="100" />
+			<rotation x="0" y="0" z="0" w="0" />
+			<scale x="40" y="80" z="40" />
+		</envObject>
+		<envObject description="Scyscrapers_Buildings2" modelName="objects/building-scyscrapers_02-max7.j3o"
+			name="Scyscrapers_Buildings2" type="3DModel" material="" image="thumbnails/building-scyscrapers_02-max7.PNG"
+			collidable="true">
+			<position x="100" y="0" z="100" />
+			<rotation x="0" y="0" z="0" w="0" />
+			<scale x="40" y="80" z="40" />
+		</envObject>
+		<envObject description="Scyscrapers_Buildings3" modelName="objects/building-scyscrapers_03-max7.j3o"
+			name="Scyscrapers_Buildings3" type="3DModel" material="" image="thumbnails/building-scyscrapers_03-max7.PNG"
+			collidable="true">
+			<position x="100" y="0" z="100" />
+			<rotation x="0" y="0" z="0" w="0" />
+			<scale x="40" y="80" z="40" />
+		</envObject>
+		<envObject description="Scyscrapers_Buildings4" modelName="objects/building-scyscrapers_04-max7.j3o"
+			name="Scyscrapers_Buildings4" type="3DModel" material="" image="thumbnails/building-scyscrapers_04-max7.PNG"
+			collidable="true">
+			<position x="100" y="0" z="100" />
+			<rotation x="0" y="0" z="0" w="0" />
+			<scale x="40" y="80" z="40" />
+		</envObject>
+		<envObject description="Scyscrapers_Buildings5" modelName="objects/building-scyscrapers_05-max7.j3o"
+			name="Scyscrapers_Buildings5" type="3DModel" material="" image="thumbnails/building-scyscrapers_05-max7.PNG"
+			collidable="true">
+			<position x="100" y="0" z="100" />
+			<rotation x="0" y="0" z="0" w="0" />
+			<scale x="40" y="80" z="40" />
+		</envObject>
+		<envObject description="Scyscrapers_Buildings6" modelName="objects/building-scyscrapers_06-max7.j3o"
+			name="Scyscrapers_Buildings6" type="3DModel" material="" image="thumbnails/building-scyscrapers_06-max7.PNG"
+			collidable="true">
+			<position x="100" y="0" z="100" />
+			<rotation x="0" y="0" z="0" w="0" />
+			<scale x="40" y="80" z="40" />
+		</envObject>
+		<envObject description="Scyscrapers_Buildings7" modelName="objects/building-scyscrapers_07-max7.j3o"
+			name="Scyscrapers_Buildings7" type="3DModel" material="" image="thumbnails/building-scyscrapers_07-max7.PNG"
+			collidable="true">
+			<position x="100" y="0" z="100" />
+			<rotation x="0" y="0" z="0" w="0" />
+			<scale x="40" y="80" z="40" />
+		</envObject>
+		<envObject description="Scyscrapers_Buildings8" modelName="objects/building-scyscrapers_08-max7.j3o"
+			name="Scyscrapers_Buildings8" type="3DModel" material="" image="thumbnails/building-scyscrapers_08-max7.PNG"
+			collidable="true">
+			<position x="100" y="0" z="100" />
+			<rotation x="0" y="0" z="0" w="0" />
+			<scale x="40" y="80" z="40" />
+		</envObject>
+		<envObject description="Scyscrapers_Buildings9" modelName="objects/building-scyscrapers_09-max7.j3o"
+			name="Scyscrapers_Buildings9" type="3DModel" material="" image="thumbnails/building-scyscrapers_09-max7.PNG"
+			collidable="true">
+			<position x="100" y="0" z="100" />
+			<rotation x="0" y="0" z="0" w="0" />
+			<scale x="40" y="80" z="40" />
+		</envObject>
+		<envObject description="Scyscrapers_Buildings10" modelName="objects/building-scyscrapers_10-max7.j3o"
+			name="Scyscrapers_Buildings10" type="3DModel" material="" image="thumbnails/building-scyscrapers_10-max7.PNG"
+			collidable="true">
+			<position x="100" y="0" z="100" />
+			<rotation x="0" y="0" z="0" w="0" />
+			<scale x="40" y="80" z="40" />
+		</envObject>
+		<envObject description="Scyscrapers_Buildings11" modelName="objects/building-scyscrapers_11-max7.j3o"
+			name="Scyscrapers_Buildings11" type="3DModel" material="" image="thumbnails/building-scyscrapers_11-max7.PNG"
+			collidable="true">
+			<position x="100" y="0" z="100" />
+			<rotation x="0" y="0" z="0" w="0" />
+			<scale x="40" y="80" z="40" />
+		</envObject>
+		<envObject description="Scyscrapers_Buildings12" modelName="objects/building-scyscrapers_12-max7.j3o"
+			name="Scyscrapers_Buildings12" type="3DModel" material="" image="thumbnails/building-scyscrapers_12-max7.PNG"
+			collidable="true">
+			<position x="100" y="0" z="100" />
+			<rotation x="0" y="0" z="0" w="0" />
+			<scale x="40" y="80" z="40" />
+		</envObject>
+		<envObject description="Scyscrapers_Buildings13" modelName="objects/building-scyscrapers_13-max7.j3o"
+			name="Scyscrapers_Buildings13" type="3DModel" material="" image="thumbnails/building-scyscrapers_13-max7.PNG"
+			collidable="true">
+			<position x="100" y="0" z="100" />
+			<rotation x="0" y="0" z="0" w="0" />
+			<scale x="40" y="80" z="40" />
+		</envObject>
+		<envObject description="Scyscrapers_Buildings14" modelName="objects/building-scyscrapers_14-max7.j3o"
+			name="Scyscrapers_Buildings14" type="3DModel" material="" image="thumbnails/building-scyscrapers_14-max7.PNG"
+			collidable="true">
+			<position x="100" y="0" z="100" />
+			<rotation x="0" y="0" z="0" w="0" />
+			<scale x="40" y="80" z="40" />
+		</envObject>
+		<envObject description="Scyscrapers_Buildings15" modelName="objects/building-scyscrapers_15-max7.j3o"
+			name="Scyscrapers_Buildings15" type="3DModel" material="" image="thumbnails/building-scyscrapers_15-max7.PNG"
+			collidable="true">
+			<position x="100" y="0" z="100" />
+			<rotation x="0" y="0" z="0" w="0" />
+			<scale x="40" y="80" z="40" />
+		</envObject>
+		<envObject description="Scyscrapers_Buildings16" modelName="objects/building-scyscrapers_16-max7.j3o"
+			name="Scyscrapers_Buildings16" type="3DModel" material="" image="thumbnails/building-scyscrapers_16-max7.PNG"
+			collidable="true">
+			<position x="100" y="0" z="100" />
+			<rotation x="0" y="0" z="0" w="0" />
+			<scale x="40" y="80" z="40" />
+		</envObject>
+		<envObject description="Scyscrapers_Buildings17" modelName="objects/building-scyscrapers_17-max7.j3o"
+			name="Scyscrapers_Buildings17" type="3DModel" material="" image="thumbnails/building-scyscrapers_17-max7.PNG"
+			collidable="true">
+			<position x="100" y="0" z="100" />
+			<rotation x="0" y="0" z="0" w="0" />
+			<scale x="40" y="80" z="40" />
+		</envObject>
+		<envObject description="Scyscrapers_Buildings18" modelName="objects/building-scyscrapers_18-max7.j3o"
+			name="Scyscrapers_Buildings18" type="3DModel" material="" image="thumbnails/building-scyscrapers_18-max7.PNG"
+			collidable="true">
+			<position x="100" y="0" z="100" />
+			<rotation x="0" y="0" z="0" w="0" />
+			<scale x="40" y="80" z="40" />
+		</envObject>
+		<envObject description="Scyscrapers_Buildings19" modelName="objects/building-scyscrapers_19-max7.j3o"
+			name="Scyscrapers_Buildings19" type="3DModel" material="" image="thumbnails/building-scyscrapers_19-max7.PNG"
+			collidable="true">
+			<position x="100" y="0" z="100" />
+			<rotation x="0" y="0" z="0" w="0" />
+			<scale x="40" y="80" z="40" />
+		</envObject>
+		<envObject description="Scyscrapers_Buildings20" modelName="objects/building-scyscrapers_20-max7.j3o"
+			name="Scyscrapers_Buildings20" type="3DModel" material="" image="thumbnails/building-scyscrapers_20-max7.PNG"
+			collidable="true">
+			<position x="100" y="0" z="100" />
+			<rotation x="0" y="0" z="0" w="0" />
+			<scale x="40" y="80" z="40" />
+		</envObject>
+		<envObject description="Scyscrapers_Buildings21" modelName="objects/building-scyscrapers_21-max7.j3o"
+			name="Scyscrapers_Buildings21" type="3DModel" material="" image="thumbnails/building-scyscrapers_21-max7.PNG"
+			collidable="true">
+			<position x="100" y="0" z="100" />
+			<rotation x="0" y="0" z="0" w="0" />
+			<scale x="40" y="80" z="40" />
+		</envObject>
+		<envObject description="Scyscrapers_Buildings22" modelName="objects/building-scyscrapers_22-max7.j3o"
+			name="Scyscrapers_Buildings22" type="3DModel" material="" image="thumbnails/building-scyscrapers_22-max7.PNG"
+			collidable="true">
+			<position x="100" y="0" z="100" />
+			<rotation x="0" y="0" z="0" w="0" />
+			<scale x="40" y="80" z="40" />
+		</envObject>
+		<envObject description="Scyscrapers_Buildings23" modelName="objects/building-scyscrapers_23-max7.j3o"
+			name="Scyscrapers_Buildings23" type="3DModel" material="" image="thumbnails/building-scyscrapers_23-max7.PNG"
+			collidable="true">
+			<position x="100" y="0" z="100" />
+			<rotation x="0" y="0" z="0" w="0" />
+			<scale x="40" y="80" z="40" />
+		</envObject>
+		<envObject description="Scyscrapers_Buildings24" modelName="objects/building-scyscrapers_24-max7.j3o"
+			name="Scyscrapers_Buildings24" type="3DModel" material="" image="thumbnails/building-scyscrapers_24-max7.PNG"
+			collidable="true">
+			<position x="100" y="0" z="100" />
+			<rotation x="0" y="0" z="0" w="0" />
+			<scale x="40" y="80" z="40" />
+		</envObject>
+		<envObject description="Scyscrapers_Buildings25" modelName="objects/building-scyscrapers_25-max7.j3o"
+			name="Scyscrapers_Buildings25" type="3DModel" material="" image="thumbnails/building-scyscrapers_25-max7.PNG"
+			collidable="true">
+			<position x="100" y="0" z="100" />
+			<rotation x="0" y="0" z="0" w="0" />
+			<scale x="40" y="80" z="40" />
+		</envObject>
+		<envObject description="Scyscrapers_Buildings26" modelName="objects/building-scyscrapers_26-max7.j3o"
+			name="Scyscrapers_Buildings26" type="3DModel" material="" image="thumbnails/building-scyscrapers_26-max7.PNG"
+			collidable="true">
+			<position x="100" y="0" z="100" />
+			<rotation x="0" y="0" z="0" w="0" />
+			<scale x="40" y="80" z="40" />
+		</envObject>
+		<envObject description="Scyscrapers_Buildings27" modelName="objects/building-scyscrapers_27-max7.j3o"
+			name="Scyscrapers_Buildings27" type="3DModel" material="" image="thumbnails/building-scyscrapers_27-max7.PNG"
+			collidable="true">
+			<position x="100" y="0" z="100" />
+			<rotation x="0" y="0" z="0" w="0" />
+			<scale x="40" y="80" z="40" />
+		</envObject>
+		<envObject description="Scyscrapers_Buildings28" modelName="objects/building-scyscrapers_28-max7.j3o"
+			name="Scyscrapers_Buildings28" type="3DModel" material="" image="thumbnails/building-scyscrapers_28-max7.PNG"
+			collidable="true">
+			<position x="100" y="0" z="100" />
+			<rotation x="0" y="0" z="0" w="0" />
+			<scale x="40" y="80" z="40" />
+		</envObject>
+		<envObject description="Scyscrapers_Buildings29" modelName="objects/building-scyscrapers_29-max7.j3o"
+			name="Scyscrapers_Buildings29" type="3DModel" material="" image="thumbnails/building-scyscrapers_29-max7.PNG"
+			collidable="true">
+			<position x="100" y="0" z="100" />
+			<rotation x="0" y="0" z="0" w="0" />
+			<scale x="40" y="80" z="40" />
+		</envObject>
+		<envObject description="Scyscrapers_Buildings30" modelName="objects/building-scyscrapers_30-max7.j3o"
+			name="Scyscrapers_Buildings30" type="3DModel" material="" image="thumbnails/building-scyscrapers_30-max7.PNG"
+			collidable="true">
+			<position x="100" y="0" z="100" />
+			<rotation x="0" y="0" z="0" w="0" />
+			<scale x="40" y="80" z="40" />
+		</envObject>
+		<envObject description="Scyscrapers_Buildings31" modelName="objects/building-scyscrapers_31-max7.j3o"
+			name="Scyscrapers_Buildings31" type="3DModel" material="" image="thumbnails/building-scyscrapers_31-max7.PNG"
+			collidable="true">
+			<position x="100" y="0" z="100" />
+			<rotation x="0" y="0" z="0" w="0" />
+			<scale x="40" y="80" z="40" />
+		</envObject>
+		<envObject description="Scyscrapers_Buildings32" modelName="objects/building-scyscrapers_32-max7.j3o"
+			name="Scyscrapers_Buildings32" type="3DModel" material="" image="thumbnails/building-scyscrapers_32-max7.PNG"
+			collidable="true">
+			<position x="100" y="0" z="100" />
+			<rotation x="0" y="0" z="0" w="0" />
+			<scale x="40" y="80" z="40" />
+		</envObject>
+		<envObject description="Scyscrapers_Buildings33" modelName="objects/building-scyscrapers_33-max7.j3o"
+			name="Scyscrapers_Buildings33" type="3DModel" material="" image="thumbnails/building-scyscrapers_33-max7.PNG"
+			collidable="true">
+			<position x="100" y="0" z="100" />
+			<rotation x="0" y="0" z="0" w="0" />
+			<scale x="40" y="80" z="40" />
+		</envObject>
+		<envObject description="Scyscrapers_Buildings34" modelName="objects/building-scyscrapers_34-max7.j3o"
+			name="Scyscrapers_Buildings34" type="3DModel" material="" image="thumbnails/building-scyscrapers_34-max7.PNG"
+			collidable="true">
+			<position x="100" y="0" z="100" />
+			<rotation x="0" y="0" z="0" w="0" />
+			<scale x="40" y="80" z="40" />
+		</envObject>
+		<envObject description="Scyscrapers_Buildings35" modelName="objects/building-scyscrapers_35-max7.j3o"
+			name="Scyscrapers_Buildings35" type="3DModel" material="" image="thumbnails/building-scyscrapers_35-max7.PNG"
+			collidable="true">
+			<position x="100" y="0" z="100" />
+			<rotation x="0" y="0" z="0" w="0" />
+			<scale x="40" y="80" z="40" />
+		</envObject>
+		<envObject description="Scyscrapers_Buildings36" modelName="objects/building-scyscrapers_36-max7.j3o"
+			name="Scyscrapers_Buildings36" type="3DModel" material="" image="thumbnails/building-scyscrapers_36-max7.PNG"
+			collidable="true">
+			<position x="100" y="0" z="100" />
+			<rotation x="0" y="0" z="0" w="0" />
+			<scale x="40" y="80" z="40" />
+		</envObject>
+		<envObject description="Scyscrapers_Buildings37" modelName="objects/building-scyscrapers_37-max7.j3o"
+			name="Scyscrapers_Buildings37" type="3DModel" material="" image="thumbnails/building-scyscrapers_37-max7.PNG"
+			collidable="true">
+			<position x="100" y="0" z="100" />
+			<rotation x="0" y="0" z="0" w="0" />
+			<scale x="40" y="80" z="40" />
+		</envObject>
+		<envObject description="Scyscrapers_Buildings38" modelName="objects/building-scyscrapers_38-max7.j3o"
+			name="Scyscrapers_Buildings38" type="3DModel" material="" image="thumbnails/building-scyscrapers_38-max7.PNG"
+			collidable="true">
+			<position x="100" y="0" z="100" />
+			<rotation x="0" y="0" z="0" w="0" />
+			<scale x="40" y="80" z="40" />
+		</envObject>
+		<envObject description="Scyscrapers_Buildings39" modelName="objects/building-scyscrapers_39-max7.j3o"
+			name="Scyscrapers_Buildings39" type="3DModel" material="" image="thumbnails/building-scyscrapers_39-max7.PNG"
+			collidable="true">
+			<position x="100" y="0" z="100" />
+			<rotation x="0" y="0" z="0" w="0" />
+			<scale x="40" y="80" z="40" />
+		</envObject>
+		<envObject description="Scyscrapers_Buildings40" modelName="objects/building-scyscrapers_40-max7.j3o"
+			name="Scyscrapers_Buildings40" type="3DModel" material="" image="thumbnails/building-scyscrapers_40-max7.PNG"
+			collidable="true">
+			<position x="100" y="0" z="100" />
+			<rotation x="0" y="0" z="0" w="0" />
+			<scale x="40" y="80" z="40" />
+		</envObject>
+		<envObject description="Scyscrapers_Buildings41" modelName="objects/building-scyscrapers_41-max7.j3o"
+			name="Scyscrapers_Buildings41" type="3DModel" material="" image="thumbnails/building-scyscrapers_41-max7.PNG"
+			collidable="true">
+			<position x="100" y="0" z="100" />
+			<rotation x="0" y="0" z="0" w="0" />
+			<scale x="40" y="80" z="40" />
+		</envObject>
+		<envObject description="Scyscrapers_Buildings42" modelName="objects/building-scyscrapers_42-max7.j3o"
+			name="Scyscrapers_Buildings42" type="3DModel" material="" image="thumbnails/building-scyscrapers_42-max7.PNG"
+			collidable="true">
+			<position x="100" y="0" z="100" />
+			<rotation x="0" y="0" z="0" w="0" />
+			<scale x="40" y="80" z="40" />
+		</envObject>
+		<envObject description="Scyscrapers_Buildings43" modelName="objects/building-scyscrapers_43-max7.j3o"
+			name="Scyscrapers_Buildings43" type="3DModel" material="" image="thumbnails/building-scyscrapers_43-max7.PNG"
+			collidable="true">
+			<position x="100" y="0" z="100" />
+			<rotation x="0" y="0" z="0" w="0" />
+			<scale x="40" y="80" z="40" />
+		</envObject>
+	</envObjectType>
+	<envObjectType id="Car-Parking-Lot" name="Car-Parking-Lot" type="Car-Parking-Lot">
+		<envObject description="Car-Parking-Lot" modelName="objects/car-parking-lot-max7.j3o"
+			name="Car-Parking-Lot" type="3DModel" material="" image="thumbnails/car-parking-lot-max7.PNG"
+			collidable="true">
+			<position x="100" y="0" z="100" />
+			<rotation x="0" y="0" z="0" w="0" />
+			<scale x="10" y="10" z="10" />
+		</envObject>
+		<envObject description="Park-Basketball" modelName="objects/park-basketball-max7.j3o"
+			name="Park-Basketball" type="3DModel" material="" image="thumbnails/park-basketball-max7.PNG"
+			collidable="false">
+			<position x="100" y="0" z="100" />
+			<rotation x="0" y="0" z="0" w="0" />
+			<scale x="10" y="10" z="10" />
+		</envObject>
+	</envObjectType>
+	<envObjectType id="Gas-Station" name="Gas-Station" type="Gas-Station">
+		<envObject description="Gas-Station1" modelName="objects/gas-station_01-max7.j3o"
+			name="Gas-Station1" type="3DModel" material="" image="thumbnails/gas-station_01-max7.PNG"
+			collidable="true">
+			<position x="100" y="0" z="100" />
+			<rotation x="0" y="0" z="0" w="0" />
+			<scale x="10" y="10" z="10" />
+		</envObject>
+		<envObject description="Gas-Station2" modelName="objects/gas-station_02-max7.j3o"
+			name="Gas-Station2" type="3DModel" material="" image="thumbnails/gas-station_02-max7.PNG"
+			collidable="true">
+			<position x="100" y="0" z="100" />
+			<rotation x="0" y="0" z="0" w="0" />
+			<scale x="10" y="10" z="10" />
+		</envObject>
+	</envObjectType>
+	<envObjectType id="Highway" name="Highway" type="Highway">
+		<envObject description="highway-arc-section-01" modelName="objects/highway-arc-section-01-max7.j3o"
+			name="highway-arc-section-01" type="3DModel" material="" image="thumbnails/highway-arc-section-01-max7.PNG"
+			collidable="true">
+			<position x="100" y="0" z="100" />
+			<rotation x="0" y="0" z="0" w="0" />
+			<scale x="10" y="5" z="10" />
+		</envObject>
+		<envObject description="highway-connection-01" modelName="objects/highway-connection-01-max7.j3o"
+			name="highway-connection-01" type="3DModel" material="" image="thumbnails/highway-connection-01-max7.PNG"
+			collidable="true">
+			<position x="100" y="0" z="100" />
+			<rotation x="0" y="0" z="0" w="0" />
+			<scale x="10" y="5" z="10" />
+		</envObject>
+		<envObject description="highway-connection-02" modelName="objects/highway-connection-02-max7.j3o"
+			name="highway-connection-02" type="3DModel" material="" image="thumbnails/highway-connection-02-max7.PNG"
+			collidable="true">
+			<position x="100" y="0" z="100" />
+			<rotation x="0" y="0" z="0" w="0" />
+			<scale x="10" y="5" z="10" />
+		</envObject>
+		<envObject description="highway-connection-03" modelName="objects/highway-connection-03-max7.j3o"
+			name="highway-connection-03" type="3DModel" material="" image="thumbnails/highway-connection-03-max7.PNG"
+			collidable="true">
+			<position x="100" y="0" z="100" />
+			<rotation x="0" y="0" z="0" w="0" />
+			<scale x="10" y="5" z="10" />
+		</envObject>
+		<envObject description="highway-lower-01" modelName="objects/highway-lower-01-max7.j3o"
+			name="highway-lower-01" type="3DModel" material="" image="thumbnails/highway-lower-01-max7.PNG"
+			collidable="true">
+			<position x="100" y="0" z="100" />
+			<rotation x="0" y="0" z="0" w="0" />
+			<scale x="10" y="5" z="10" />
+		</envObject>
+		<envObject description="highway-lower-arc-01" modelName="objects/highway-lower-arc-01-max7.j3o"
+			name="highway-lower-arc-01" type="3DModel" material="" image="thumbnails/highway-lower-arc-01-max7.PNG"
+			collidable="true">
+			<position x="100" y="0" z="100" />
+			<rotation x="0" y="0" z="0" w="0" />
+			<scale x="10" y="5" z="10" />
+		</envObject>
+		<envObject description="highway-lower-arc-02" modelName="objects/highway-lower-arc-02-max7.j3o"
+			name="highway-lower-arc-02" type="3DModel" material="" image="thumbnails/highway-lower-arc-02-max7.PNG"
+			collidable="true">
+			<position x="100" y="0" z="100" />
+			<rotation x="0" y="0" z="0" w="0" />
+			<scale x="10" y="5" z="10" />
+		</envObject>
+		<envObject description="highway-lower-arc-03" modelName="objects/highway-lower-arc-03-max7.j3o"
+			name="highway-lower-arc-03" type="3DModel" material="" image="thumbnails/highway-lower-arc-03-max7.PNG"
+			collidable="true">
+			<position x="100" y="0" z="100" />
+			<rotation x="0" y="0" z="0" w="0" />
+			<scale x="10" y="5" z="10" />
+		</envObject>
+		<envObject description="highway-lower-Tconnection-01" modelName="objects/highway-lower-Tconnection-01-max7.j3o"
+			name="highway-lower-Tconnection-01" type="3DModel" material="" image="thumbnails/highway-lower-Tconnection-01-max7.PNG"
+			collidable="true">
+			<position x="100" y="0" z="100" />
+			<rotation x="0" y="0" z="0" w="0" />
+			<scale x="10" y="5" z="10" />
+		</envObject>
+		<envObject description="highway-section-01" modelName="objects/highway-section-01-max7.j3o"
+			name="highway-section-01" type="3DModel" material="" image="thumbnails/highway-section-01-max7.PNG"
+			collidable="true">
+			<position x="100" y="0" z="100" />
+			<rotation x="0" y="0" z="0" w="0" />
+			<scale x="10" y="5" z="10" />
+		</envObject>
+		<envObject description="highway-section-02" modelName="objects/highway-section-02-max7.j3o"
+			name="highway-section-02" type="3DModel" material="" image="thumbnails/highway-section-02-max7.PNG"
+			collidable="true">
+			<position x="100" y="0" z="100" />
+			<rotation x="0" y="0" z="0" w="0" />
+			<scale x="10" y="5" z="10" />
+		</envObject>
+		<envObject description="highway-Tsection-01" modelName="objects/highway-Tsection-01-max7.j3o"
+			name="highway-Tsection-01" type="3DModel" material="" image="thumbnails/highway-Tsection-01-max7.PNG"
+			collidable="true">
+			<position x="100" y="0" z="100" />
+			<rotation x="0" y="0" z="0" w="0" />
+			<scale x="10" y="5" z="10" />
+		</envObject>
+		<envObject description="highway-xsection-01" modelName="objects/highway-xsection-01-max7.j3o"
+			name="highway-xsection-01" type="3DModel" material="" image="thumbnails/highway-xsection-01-max7.PNG"
+			collidable="true">
+			<position x="100" y="0" z="100" />
+			<rotation x="0" y="0" z="0" w="0" />
+			<scale x="10" y="5" z="10" />
+		</envObject>
+		<envObject description="highway-xsection-02" modelName="objects/highway-xsection-02-max7.j3o"
+			name="highway-xsection-02" type="3DModel" material="" image="thumbnails/highway-xsection-02-max7.PNG"
+			collidable="true">
+			<position x="100" y="0" z="100" />
+			<rotation x="0" y="0" z="0" w="0" />
+			<scale x="10" y="5" z="10" />
+		</envObject>
+		<envObject description="highway-xsection-03" modelName="objects/highway-xsection-03-max7.j3o"
+			name="highway-xsection-03" type="3DModel" material="" image="thumbnails/highway-xsection-03-max7.PNG"
+			collidable="true">
+			<position x="100" y="0" z="100" />
+			<rotation x="0" y="0" z="0" w="0" />
+			<scale x="10" y="5" z="10" />
+		</envObject>
+	</envObjectType>
+	<envObjectType id="City_Plants" name="City_Plants" type="City_Plants">
+		<envObject description="m_bush_01" modelName="objects/m_bush_01-max7.j3o"
+			name="m_bush_01" type="3DModel" material="" image="thumbnails/m_bush_01-max7.PNG"
+			collidable="true">
+			<position x="100" y="0" z="100" />
+			<rotation x="0" y="0" z="0" w="0" />
+			<scale x="5" y="5" z="5" />
+		</envObject>
+		<envObject description="m_bush_02" modelName="objects/m_bush_02-max7.j3o"
+			name="m_bush_02" type="3DModel" material="" image="thumbnails/m_bush_02-max7.PNG"
+			collidable="true">
+			<position x="100" y="0" z="100" />
+			<rotation x="0" y="0" z="0" w="0" />
+			<scale x="5" y="5" z="5" />
+		</envObject>
+		<envObject description="m_bush_03" modelName="objects/m_bush_03-max7.j3o"
+			name="m_bush_03" type="3DModel" material="" image="thumbnails/m_bush_03-max7.PNG"
+			collidable="true">
+			<position x="100" y="0" z="100" />
+			<rotation x="0" y="0" z="0" w="0" />
+			<scale x="5" y="5" z="5" />
+		</envObject>
+		<envObject description="m_bush_04" modelName="objects/m_bush_04-max7.j3o"
+			name="m_bush_04" type="3DModel" material="" image="thumbnails/m_bush_04-max7.PNG"
+			collidable="true">
+			<position x="100" y="0" z="100" />
+			<rotation x="0" y="0" z="0" w="0" />
+			<scale x="5" y="5" z="5" />
+		</envObject>
+		<envObject description="m_bush_05" modelName="objects/m_bush_05-max7.j3o"
+			name="m_bush_05" type="3DModel" material="" image="thumbnails/m_bush_05-max7.PNG"
+			collidable="true">
+			<position x="100" y="0" z="100" />
+			<rotation x="0" y="0" z="0" w="0" />
+			<scale x="5" y="5" z="5" />
+		</envObject>
+		<envObject description="m_bush_06" modelName="objects/m_bush_06-max7.j3o"
+			name="m_bush_06" type="3DModel" material="" image="thumbnails/m_bush_06-max7.PNG"
+			collidable="true">
+			<position x="100" y="0" z="100" />
+			<rotation x="0" y="0" z="0" w="0" />
+			<scale x="5" y="5" z="5" />
+		</envObject>
+		<envObject description="m_tree_01_LOD-01" modelName="objects/m_tree_01_LOD-01-max7.j3o"
+			name="m_tree_01_LOD-01" type="3DModel" material="" image="thumbnails/m_tree_01_LOD-01-max7.PNG"
+			collidable="true">
+			<position x="100" y="0" z="100" />
+			<rotation x="0" y="0" z="0" w="0" />
+			<scale x="5" y="6" z="5" />
+		</envObject>
+		<envObject description="m_tree_01_LOD-02" modelName="objects/m_tree_01_LOD-02-max7.j3o"
+			name="m_tree_01_LOD-02" type="3DModel" material="" image="thumbnails/m_tree_01_LOD-02-max7.PNG"
+			collidable="true">
+			<position x="100" y="0" z="100" />
+			<rotation x="0" y="0" z="0" w="0" />
+			<scale x="5" y="6" z="5" />
+		</envObject>
+		<envObject description="m_tree_01_LOD-03" modelName="objects/m_tree_01_LOD-03-max7.j3o"
+			name="m_tree_01_LOD-03" type="3DModel" material="" image="thumbnails/m_tree_01_LOD-03-max7.PNG"
+			collidable="true">
+			<position x="100" y="0" z="100" />
+			<rotation x="0" y="0" z="0" w="0" />
+			<scale x="5" y="6" z="5" />
+		</envObject>
+		<envObject description="m_tree_04_LOD-01" modelName="objects/m_tree_01_LOD-04-max7.j3o"
+			name="m_tree_01_LOD-04" type="3DModel" material="" image="thumbnails/m_tree_01_LOD-04-max7.PNG"
+			collidable="true">
+			<position x="100" y="0" z="100" />
+			<rotation x="0" y="0" z="0" w="0" />
+			<scale x="5" y="6" z="5" />
+		</envObject>
+		<envObject description="m_tree_01_LOD-05" modelName="objects/m_tree_01_LOD-05-max7.j3o"
+			name="m_tree_01_LOD-05" type="3DModel" material="" image="thumbnails/m_tree_01_LOD-05-max7.PNG"
+			collidable="true">
+			<position x="100" y="0" z="100" />
+			<rotation x="0" y="0" z="0" w="0" />
+			<scale x="5" y="6" z="5" />
+		</envObject>
+	</envObjectType>
+	<envObjectType id="Billboards" name="Billboards" type="Billboards">
+		<envObject description="misc_billboard_01" modelName="objects/misc_billboard_01-max7.j3o"
+			name="misc_billboard_01" type="3DModel" material="" image="thumbnails/misc_billboard_01-max7.PNG"
+			collidable="true">
+			<position x="100" y="0" z="100" />
+			<rotation x="0" y="0" z="0" w="0" />
+			<scale x="1" y="6" z="5" />
+		</envObject>
+		<envObject description="misc_billboard_02" modelName="objects/misc_billboard_02-max7.j3o"
+			name="misc_billboard_02" type="3DModel" material="" image="thumbnails/misc_billboard_02-max7.PNG"
+			collidable="true">
+			<position x="100" y="0" z="100" />
+			<rotation x="0" y="0" z="0" w="0" />
+			<scale x="1" y="6" z="5" />
+		</envObject>
+		<envObject description="misc_billboard_03" modelName="objects/misc_billboard_03-max7.j3o"
+			name="misc_billboard_03" type="3DModel" material="" image="thumbnails/misc_billboard_03-max7.PNG"
+			collidable="true">
+			<position x="100" y="0" z="100" />
+			<rotation x="0" y="0" z="0" w="0" />
+			<scale x="1" y="6" z="5" />
+		</envObject>
+		<envObject description="misc_billboard_04" modelName="objects/misc_billboard_04-max7.j3o"
+			name="misc_billboard_04" type="3DModel" material="" image="thumbnails/misc_billboard_04-max7.PNG"
+			collidable="true">
+			<position x="100" y="0" z="100" />
+			<rotation x="0" y="0" z="0" w="0" />
+			<scale x="1" y="6" z="5" />
+		</envObject>
+		<envObject description="misc_billboard_05" modelName="objects/misc_billboard_05-max7.j3o"
+			name="misc_billboard_05" type="3DModel" material="" image="thumbnails/misc_billboard_05-max7.PNG"
+			collidable="true">
+			<position x="100" y="0" z="100" />
+			<rotation x="0" y="0" z="0" w="0" />
+			<scale x="1" y="6" z="5" />
+		</envObject>
+		<envObject description="misc_billboard_06" modelName="objects/misc_billboard_06-max7.j3o"
+			name="misc_billboard_06" type="3DModel" material="" image="thumbnails/misc_billboard_06-max7.PNG"
+			collidable="true">
+			<position x="100" y="0" z="100" />
+			<rotation x="0" y="0" z="0" w="0" />
+			<scale x="1" y="6" z="5" />
+		</envObject>
+		<envObject description="misc_billboard_07" modelName="objects/misc_billboard_07-max7.j3o"
+			name="misc_billboard_07" type="3DModel" material="" image="thumbnails/misc_billboard_07-max7.PNG"
+			collidable="true">
+			<position x="100" y="0" z="100" />
+			<rotation x="0" y="0" z="0" w="0" />
+			<scale x="1" y="6" z="5" />
+		</envObject>
+		<envObject description="misc_billboard_08" modelName="objects/misc_billboard_08-max7.j3o"
+			name="misc_billboard_08" type="3DModel" material="" image="thumbnails/misc_billboard_08-max7.PNG"
+			collidable="true">
+			<position x="100" y="0" z="100" />
+			<rotation x="0" y="0" z="0" w="0" />
+			<scale x="1" y="6" z="5" />
+		</envObject>
+	</envObjectType>
+	<envObjectType id="Kiosk" name="Kiosk" type="Kiosk">
+		<envObject description="misc_kiosk_01" modelName="objects/misc_kiosk_01-max7.j3o"
+			name="misc_kiosk_01" type="3DModel" material="" image="thumbnails/misc_kiosk_01-max7.PNG"
+			collidable="true">
+			<position x="100" y="0" z="100" />
+			<rotation x="0" y="0" z="0" w="0" />
+			<scale x="5" y="6" z="5" />
+		</envObject>
+		<envObject description="park bench" modelName="objects/parkbench.j3o"
+			name="park bench" type="3DModel" material="" image="thumbnails/parkbench.PNG"
+			collidable="true">
+			<position x="100" y="0" z="100" />
+			<rotation x="0" y="0" z="0" w="0" />
+			<scale x="3" y="2" z="2" />
+		</envObject>
+		<envObject description="misc_kiosk_02" modelName="objects/misc_kiosk_02-max7.j3o"
+			name="misc_kiosk_02" type="3DModel" material="" image="thumbnails/misc_kiosk_02-max7.PNG"
+			collidable="true">
+			<position x="100" y="0" z="100" />
+			<rotation x="0" y="0" z="0" w="0" />
+			<scale x="5" y="6" z="5" />
+		</envObject>
+	</envObjectType>
+	<envObjectType id="Lamppost" name="Lamppost" type="Lamppost">
+		<envObject description="misc_lamppost_01" modelName="objects/misc_lamppost_01-max7.j3o"
+			name="misc_lamppost_01" type="3DModel" material="" image="thumbnails/misc_lamppost_01-max7.PNG"
+			collidable="true">
+			<position x="100" y="0" z="100" />
+			<rotation x="0" y="0" z="0" w="0" />
+			<scale x="0.5" y="8" z="3" />
+		</envObject>
+		<envObject description="misc_lamppost_02" modelName="objects/misc_lamppost_02-max7.j3o"
+			name="misc_lamppost_02" type="3DModel" material="" image="thumbnails/misc_lamppost_02-max7.PNG"
+			collidable="true">
+			<position x="100" y="0" z="100" />
+			<rotation x="0" y="0" z="0" w="0" />
+			<scale x="0.5" y="8" z="3" />
+		</envObject>
+		<envObject description="misc_lamppost_03" modelName="objects/misc_lamppost_03-max7.j3o"
+			name="misc_lamppost_03" type="3DModel" material="" image="thumbnails/misc_lamppost_03-max7.PNG"
+			collidable="true">
+			<position x="100" y="0" z="100" />
+			<rotation x="0" y="0" z="0" w="0" />
+			<scale x="0.5" y="8" z="3" />
+		</envObject>
+		<envObject description="misc_lamppost_04" modelName="objects/misc_lamppost_04-max7.j3o"
+			name="misc_lamppost_04" type="3DModel" material="" image="thumbnails/misc_lamppost_04-max7.PNG"
+			collidable="true">
+			<position x="100" y="0" z="100" />
+			<rotation x="0" y="0" z="0" w="0" />
+			<scale x="0.5" y="8" z="3" />
+		</envObject>
+		<envObject description="misc_lamppost_05" modelName="objects/misc_lamppost_05-max7.j3o"
+			name="misc_lamppost_05" type="3DModel" material="" image="thumbnails/misc_lamppost_05-max7.PNG"
+			collidable="true">
+			<position x="100" y="0" z="100" />
+			<rotation x="0" y="0" z="0" w="0" />
+			<scale x="0.5" y="8" z="3" />
+		</envObject>
+		<envObject description="misc_lamppost_06" modelName="objects/misc_lamppost_06-max7.j3o"
+			name="misc_lamppost_06" type="3DModel" material="" image="thumbnails/misc_lamppost_06-max7.PNG"
+			collidable="true">
+			<position x="100" y="0" z="100" />
+			<rotation x="0" y="0" z="0" w="0" />
+			<scale x="0.8" y="8" z="0.8" />
+		</envObject>
+		<envObject description="misc_lamppost_07" modelName="objects/misc_lamppost_07-max7.j3o"
+			name="misc_lamppost_07" type="3DModel" material="" image="thumbnails/misc_lamppost_07-max7.PNG"
+			collidable="true">
+			<position x="100" y="0" z="100" />
+			<rotation x="0" y="0" z="0" w="0" />
+			<scale x="0.8" y="8" z="0.8" />
+		</envObject>
+		<envObject description="misc_lamppost_08" modelName="objects/misc_lamppost_08-max7.j3o"
+			name="misc_lamppost_08" type="3DModel" material="" image="thumbnails/misc_lamppost_08-max7.PNG"
+			collidable="true">
+			<position x="100" y="0" z="100" />
+			<rotation x="0" y="0" z="0" w="0" />
+			<scale x="0.8" y="8" z="2" />
+		</envObject>
+	</envObjectType>
+	<envObjectType id="Road_sign" name="Road_sign" type="Road_sign">
+		<envObject description="misc_road-sign_01" modelName="objects/misc_road-sign_01-max7.j3o"
+			name="misc_road-sign_01" type="3DModel" material="" image="thumbnails/misc_road-sign_01-max7.PNG"
+			collidable="true">
+			<position x="100" y="0" z="100" />
+			<rotation x="0" y="0" z="0" w="0" />
+			<scale x="1" y="5" z="5" />
+		</envObject>
+		<envObject description="road-sign_2" modelName="objects/misc_road-sign_02-max7.j3o"
+			name="road-sign_2" type="3DModel" material="" image="thumbnails/misc_road-sign_02-max7.PNG"
+			collidable="true">
+			<position x="100" y="0" z="100" />
+			<rotation x="0" y="0" z="0" w="0" />
+			<scale x="1" y="5" z="5" />
+		</envObject>
+		<envObject description="road-sign_3" modelName="objects/misc_road-sign_03-max7.j3o"
+			name="road-sign_3" type="3DModel" material="" image="thumbnails/misc_road-sign_03-max7.PNG"
+			collidable="true">
+			<position x="100" y="0" z="100" />
+			<rotation x="0" y="0" z="0" w="0" />
+			<scale x="1" y="5" z="5" />
+		</envObject>
+		<envObject description="road-sign_4" modelName="objects/misc_road-sign_04-max7.j3o"
+			name="road-sign_4" type="3DModel" material="" image="thumbnails/misc_road-sign_04-max7.PNG"
+			collidable="true">
+			<position x="100" y="0" z="100" />
+			<rotation x="0" y="0" z="0" w="0" />
+			<scale x="1" y="5" z="5" />
+		</envObject>
+		<envObject description="road-sign_5" modelName="objects/misc_road-sign_05-max7.j3o"
+			name="road-sign_5" type="3DModel" material="" image="thumbnails/misc_road-sign_05-max7.PNG"
+			collidable="true">
+			<position x="100" y="0" z="100" />
+			<rotation x="0" y="0" z="0" w="0" />
+			<scale x="1" y="5" z="3" />
+		</envObject>
+		<envObject description="road-sign_6" modelName="objects/misc_road-sign_06-max7.j3o"
+			name="road-sign_6" type="3DModel" material="" image="thumbnails/misc_road-sign_06-max7.PNG"
+			collidable="true">
+			<position x="100" y="0" z="100" />
+			<rotation x="0" y="0" z="0" w="0" />
+			<scale x="1" y="5" z="3" />
+		</envObject>
+		<envObject description="road-sign_7" modelName="objects/misc_road-sign_07-max7.j3o"
+			name="road-sign_7" type="3DModel" material="" image="thumbnails/misc_road-sign_07-max7.PNG"
+			collidable="true">
+			<position x="100" y="0" z="100" />
+			<rotation x="0" y="0" z="0" w="0" />
+			<scale x="1" y="5" z="3" />
+		</envObject>
+		<envObject description="road-sign_8" modelName="objects/misc_road-sign_08-max7.j3o"
+			name="road-sign_8" type="3DModel" material="" image="thumbnails/misc_road-sign_08-max7.PNG"
+			collidable="true">
+			<position x="100" y="0" z="100" />
+			<rotation x="0" y="0" z="0" w="0" />
+			<scale x="1" y="5" z="3" />
+		</envObject>
+		<envObject description="road-sign_9" modelName="objects/misc_road-sign_09-max7.j3o"
+			name="road-sign_9" type="3DModel" material="" image="thumbnails/misc_road-sign_09-max7.PNG"
+			collidable="true">
+			<position x="100" y="0" z="100" />
+			<rotation x="0" y="0" z="0" w="0" />
+			<scale x="1" y="5" z="3" />
+		</envObject>
+		<envObject description="road-sign_10" modelName="objects/misc_road-sign_10-max7.j3o"
+			name="road-sign_10" type="3DModel" material="" image="thumbnails/misc_road-sign_10-max7.PNG"
+			collidable="true">
+			<position x="100" y="0" z="100" />
+			<rotation x="0" y="0" z="0" w="0" />
+			<scale x="1" y="5" z="1" />
+		</envObject>
+		<envObject description="misc_road-sign_11" modelName="objects/misc_road-sign_11-max7.j3o"
+			name="misc_road-sign_11" type="3DModel" material="" image="thumbnails/misc_road-sign_11-max7.PNG"
+			collidable="true">
+			<position x="100" y="0" z="100" />
+			<rotation x="0" y="0" z="0" w="0" />
+			<scale x="1" y="5" z="1" />
+		</envObject>
+		<envObject description="road-sign_12" modelName="objects/misc_road-sign_12-max7.j3o"
+			name="road-sign_12" type="3DModel" material="" image="thumbnails/misc_road-sign_12-max7.PNG"
+			collidable="true">
+			<position x="100" y="0" z="100" />
+			<rotation x="0" y="0" z="0" w="0" />
+			<scale x="1" y="5" z="1" />
+		</envObject>
+		<envObject description="road-sign_13" modelName="objects/misc_road-sign_13-max7.j3o"
+			name="road-sign_13" type="3DModel" material="" image="thumbnails/misc_road-sign_13-max7.PNG"
+			collidable="true">
+			<position x="100" y="0" z="100" />
+			<rotation x="0" y="0" z="0" w="0" />
+			<scale x="1" y="5" z="1" />
+		</envObject>
+		<envObject description="road-sign_14" modelName="objects/misc_road-sign_14-max7.j3o"
+			name="road-sign_14" type="3DModel" material="" image="thumbnails/misc_road-sign_14-max7.PNG"
+			collidable="true">
+			<position x="100" y="0" z="100" />
+			<rotation x="0" y="0" z="0" w="0" />
+			<scale x="1" y="5" z="1" />
+		</envObject>
+	</envObjectType>
+	<envObjectType id="Traffic_lights" name="Traffic_lights" type="Traffic_lights">
+		<envObject description="traffic_light1" modelName="objects/misc_traffic-lighs_01-max7.j3o"
+			name="traffic_light1" type="3DModel" material="" image="thumbnails/misc_traffic-lighs_01-max7.PNG"
+			collidable="true">
+			<position x="100" y="0" z="100" />
+			<rotation x="0" y="0" z="0" w="0" />
+			<scale x="0.5" y="5" z="5" />
+		</envObject>
+		<envObject description="traffic_light2" modelName="objects/misc_traffic-lighs_02-max7.j3o"
+			name="traffic_light2" type="3DModel" material="" image="thumbnails/misc_traffic-lighs_02-max7.PNG"
+			collidable="true">
+			<position x="100" y="0" z="100" />
+			<rotation x="0" y="0" z="0" w="0" />
+			<scale x="0.5" y="5" z="5" />
+		</envObject>
+		<envObject description="traffic_light3" modelName="objects/misc_traffic-lighs_03-max7.j3o"
+			name="traffic_light3" type="3DModel" material="" image="thumbnails/misc_traffic-lighs_03-max7.PNG"
+			collidable="true">
+			<position x="100" y="0" z="100" />
+			<rotation x="0" y="0" z="0" w="0" />
+			<scale x="1" y="5" z="1" />
+		</envObject>
+	</envObjectType>
+	<envObjectType id="Roads" name="Roads" type="Roads">
+		<envObject description="road-block_01" modelName="objects/road-block_01-max7.j3o"
+			name="road-block_01" type="3DModel" material="" image="thumbnails/road-block_01-max7.PNG"
+			collidable="false">
+			<position x="100" y="0" z="100" />
+			<rotation x="0" y="0" z="0" w="0" />
+			<scale x="10" y="0.3" z="10" />
+		</envObject>
+		<envObject description="road-block_02" modelName="objects/road-block_02-max7.j3o"
+			name="road-block_02" type="3DModel" material="" image="thumbnails/road-block_02-max7.PNG"
+			collidable="false">
+			<position x="100" y="0" z="100" />
+			<rotation x="0" y="0" z="0" w="0" />
+			<scale x="10" y="0.3" z="10" />
+		</envObject>
+		<envObject description="road-block_03" modelName="objects/road-block_03-max7.j3o"
+			name="road-block_03" type="3DModel" material="" image="thumbnails/road-block_03-max7.PNG"
+			collidable="false">
+			<position x="100" y="0" z="100" />
+			<rotation x="0" y="0" z="0" w="0" />
+			<scale x="10" y="0.3" z="10" />
+		</envObject>
+		<envObject description="road-block_04" modelName="objects/road-block_04-max7.j3o"
+			name="road-block_04" type="3DModel" material="" image="thumbnails/road-block_04-max7.PNG"
+			collidable="false">
+			<position x="100" y="0" z="100" />
+			<rotation x="0" y="0" z="0" w="0" />
+			<scale x="10" y="0.3" z="10" />
+		</envObject>
+		<envObject description="road-block_05" modelName="objects/road-block_05-max7.j3o"
+			name="road-block_05" type="3DModel" material="" image="thumbnails/road-block_05-max7.PNG"
+			collidable="false">
+			<position x="100" y="0" z="100" />
+			<rotation x="0" y="0" z="0" w="0" />
+			<scale x="10" y="0.3" z="10" />
+		</envObject>
+		<envObject description="road-block_06" modelName="objects/road-block_06-max7.j3o"
+			name="road-block_06" type="3DModel" material="" image="thumbnails/road-block_06-max7.PNG"
+			collidable="false">
+			<position x="100" y="0" z="100" />
+			<rotation x="0" y="0" z="0" w="0" />
+			<scale x="10" y="0.3" z="10" />
+		</envObject>
+		<envObject description="road-block_07" modelName="objects/road-block_07-max7.j3o"
+			name="road-block_07" type="3DModel" material="" image="thumbnails/road-block_07-max7.PNG"
+			collidable="false">
+			<position x="100" y="0" z="100" />
+			<rotation x="0" y="0" z="0" w="0" />
+			<scale x="10" y="0.3" z="10" />
+		</envObject>
+		<envObject description="road-block_08" modelName="objects/road-block_08-max7.j3o"
+			name="road-block_08" type="3DModel" material="" image="thumbnails/road-block_08-max7.PNG"
+			collidable="false">
+			<position x="100" y="0" z="100" />
+			<rotation x="0" y="0" z="0" w="0" />
+			<scale x="10" y="0.3" z="10" />
+		</envObject>
+		<envObject description="road-block_09" modelName="objects/road-block_09-max7.j3o"
+			name="road-block_09" type="3DModel" material="" image="thumbnails/road-block_09-max7.PNG"
+			collidable="false">
+			<position x="100" y="0" z="100" />
+			<rotation x="0" y="0" z="0" w="0" />
+			<scale x="10" y="0.3" z="10" />
+		</envObject>
+		<envObject description="road-block_10" modelName="objects/road-block_10-max7.j3o"
+			name="road-block_10" type="3DModel" material="" image="thumbnails/road-block_10-max7.PNG"
+			collidable="false">
+			<position x="100" y="0" z="100" />
+			<rotation x="0" y="0" z="0" w="0" />
+			<scale x="10" y="0.3" z="10" />
+		</envObject>
+		<envObject description="road-block_11" modelName="objects/road-block_11-max7.j3o"
+			name="road-block_11" type="3DModel" material="" image="thumbnails/road-block_11-max7.PNG"
+			collidable="false">
+			<position x="100" y="0" z="100" />
+			<rotation x="0" y="0" z="0" w="0" />
+			<scale x="10" y="0.3" z="10" />
+		</envObject>
+		<envObject description="road-block-circle_01" modelName="objects/road-block-circle_01-max7.j3o"
+			name="road-block-circle_01" type="3DModel" material="" image="thumbnails/road-block-circle_01-max7.PNG"
+			collidable="false">
+			<position x="100" y="0" z="100" />
+			<rotation x="0" y="0" z="0" w="0" />
+			<scale x="10" y="0.3" z="10" />
+		</envObject>
+	</envObjectType>
+</EnvironmentObjects>

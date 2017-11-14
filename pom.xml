@@ -1,0 +1,387 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 
+http://maven.apache.org/maven-v4_0_0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<!-- ======================================= -->
+	<!-- ==== Project Information === -->
+	<!-- ======================================= -->
+
+	<groupId>edu.utdallas.mavs.divas</groupId>
+	<artifactId>divas</artifactId>
+	<packaging>pom</packaging>
+	<version>4.0.19-SNAPSHOT</version>
+	<name>Divas Framework</name>
+	<url>http://mavs.utdallas.edu/</url>
+	<description>Divas Multi-agent Simulation Framework.</description>
+
+	<!-- ======================================= -->
+	<!-- ==== Properties === -->
+	<!-- ======================================= -->
+
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<myjdkversion>1.7</myjdkversion>
+		<divas.version>4.0.19-SNAPSHOT</divas.version>
+		<jmonkey.version>3.0.0-09.24.2012-SNAPSHOT</jmonkey.version>
+		<nifty.version>1.3.1</nifty.version>
+		<slf4j.version>1.7.5</slf4j.version>
+		<log4j.version>1.2.17</log4j.version>
+		<junit.version>4.11</junit.version>
+		<guice.version>3.0</guice.version>
+		<activeMQ.version>5.7.0</activeMQ.version>
+	</properties>
+
+	<!-- ======================================= -->
+	<!-- ==== Dependencies Management === -->
+	<!-- ======================================= -->
+
+	<dependencyManagement>
+		<dependencies>
+			<dependency>
+				<groupId>edu.utdallas.mavs.divas</groupId>
+				<artifactId>divas-utils</artifactId>
+				<version>${project.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>edu.utdallas.mavs.divas</groupId>
+				<artifactId>divas-mts</artifactId>
+				<version>${project.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>edu.utdallas.mavs.divas</groupId>
+				<artifactId>divas-core</artifactId>
+				<version>${project.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>edu.utdallas.mavs.divas</groupId>
+				<artifactId>divas-visualization</artifactId>
+				<version>${project.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>edu.utdallas.mavs.divas</groupId>
+				<artifactId>evacuation-visualization</artifactId>
+				<version>${project.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>edu.utdallas.mavs.divas</groupId>
+				<artifactId>evacuation-gui</artifactId>
+				<version>${project.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>edu.utdallas.mavs.divas</groupId>
+				<artifactId>divas-gui</artifactId>
+				<version>${project.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>edu.utdallas.mavs.divas</groupId>
+				<artifactId>evacuation-simulation</artifactId>
+				<version>${project.version}</version>
+			</dependency>
+		</dependencies>
+	</dependencyManagement>
+
+	<!-- ======================================= -->
+	<!-- ==== Global Dependencies === -->
+	<!-- ======================================= -->
+
+	<dependencies>
+		<!-- Logging -->
+		<dependency>
+			<groupId>org.slf4j</groupId>
+			<artifactId>slf4j-api</artifactId>
+			<version>${slf4j.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.slf4j</groupId>
+			<artifactId>slf4j-log4j12</artifactId>
+			<version>${slf4j.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>log4j</groupId>
+			<artifactId>log4j</artifactId>
+			<version>${log4j.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.perf4j</groupId>
+			<artifactId>perf4j</artifactId>
+			<version>0.9.16</version>
+		</dependency>
+
+		<!-- Test only -->
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<version>${junit.version}</version>
+			<scope>test</scope>
+		</dependency>
+	</dependencies>
+
+	<!-- ======================================= -->
+	<!-- ==== Project Information === -->
+	<!-- ======================================= -->
+
+	<modules>
+		<module>divas-utils</module>
+		<module>divas-mts</module>
+		<module>divas-core</module>
+		<module>divas-visualization</module>
+		<module>evacuation-visualization</module>
+		<module>divas-gui</module>
+		<module>evacuation-simulation</module>
+<!-- 		<module>evacuation-gui</module> -->
+	</modules>
+
+	<!-- ======================================= -->
+	<!-- ==== Organization Information === -->
+	<!-- ======================================= -->
+
+	<organization>
+		<name>Multi-Agent and Visualization Systems Lab</name>
+		<url>http://mavs.utdallas.edu</url>
+	</organization>
+
+	<developers>
+		<developer>
+			<id>Araujo</id>
+			<name>Frederico Araujo</name>
+			<email>frederico.araujo@utdallas.edu</email>
+			<url>http://www.utdallas.edu/~frederico.araujo</url>
+			<organization />
+			<organizationUrl />
+			<roles>
+				<role>Architect</role>
+				<role>Developer</role>
+			</roles>
+			<timezone />
+			<properties />
+		</developer>
+		<developer>
+			<id>Valente</id>
+			<name>Junia Valente</name>
+			<email>juniavalente@utdallas.edu</email>
+			<url>http://utdallas.edu/~juniavalente</url>
+			<organization />
+			<organizationUrl />
+			<roles>
+				<role>Architect</role>
+				<role>Developer</role>
+			</roles>
+			<timezone />
+			<properties />
+		</developer>
+		<developer>
+			<id>Al-Zinati</id>
+			<name>Mohammad</name>
+			<email>mha091020@utdallas.edu</email>
+			<url></url>
+			<organization />
+			<organizationUrl />
+			<roles>
+				<role>Architect</role>
+				<role>Developer</role>
+			</roles>
+			<timezone />
+			<properties />
+		</developer>
+	</developers>
+
+	<!-- ======================================= -->
+	<!-- ==== Devel Configuration === -->
+	<!-- ======================================= -->
+
+	<distributionManagement>
+<!-- 		<repository> -->
+<!-- 		<id>internal</id> -->
+<!-- 		<name>Internal Release Repository</name> -->
+<!-- 		<url>http://www.utdmavs.org/divas/m2/repository</url> -->
+<!-- 		</repository> -->
+		<snapshotRepository>
+			<id>snapshots</id>
+			<name>Internal Snapshots Repository</name>
+			<url>http://mavs.utdallas.edu/archiva/repository/snapshots</url>
+		</snapshotRepository>
+	</distributionManagement>
+
+	<scm>
+		<connection></connection>
+		<developerConnection></developerConnection>
+	</scm>
+
+	<ciManagement>
+		<url>https://mavs.utdallas.edu/jenkins/job/DIVAS%20Framework/</url>
+		<system>Jenkins CI</system>
+	</ciManagement>
+
+	<issueManagement>
+		<system>Mantis</system>
+		<url>https://mavs.utdallas.edu/mantis/my_view_page.php</url>
+	</issueManagement>
+
+	<!-- ======================================= -->
+	<!-- ==== Repositories === -->
+	<!-- ======================================= -->
+
+	<repositories>
+		<!-- <repository> -->
+		<!-- <id>internal</id> -->
+		<!-- <url>http://mavs.utdallas.edu/archiva/repository/internal</url> -->
+		<!-- </repository> -->
+		<repository>
+			<id>mvnrepository</id>
+			<!-- <url>https://dl.bintray.com/jmonkeyengine/org.jmonkeyengine</url> -->
+			<url>http://www.utdmavs.org/divas/m2/repository</url>
+		</repository>
+		<repository>
+			<id>jitpack.io</id>
+			<url>https://jitpack.io</url>
+		</repository>
+		<repository>
+			<id>utdrepository</id>
+			<!-- <url>https://dl.bintray.com/jmonkeyengine/org.jmonkeyengine</url> -->
+			<url>https://dl.bintray.com/jmonkeyengine/com.jme3</url>
+		</repository>
+	</repositories>
+
+	<!-- ======================================= -->
+	<!-- ==== Reports === -->
+	<!-- ======================================= -->
+	<reporting>
+		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-javadoc-plugin</artifactId>
+				<version>2.8.1</version>
+			</plugin>
+			<plugin>
+				<groupId>org.codehaus.mojo</groupId>
+				<artifactId>versions-maven-plugin</artifactId>
+				<version>1.3.1</version>
+				<reportSets>
+					<reportSet>
+						<reports>
+							<report>dependency-updates-report</report>
+							<report>plugin-updates-report</report>
+							<report>property-updates-report</report>
+						</reports>
+					</reportSet>
+				</reportSets>
+			</plugin>
+		</plugins>
+	</reporting>
+
+	<!-- ======================================= -->
+	<!-- ==== Build === -->
+	<!-- ======================================= -->
+	<build>
+		<!-- Defines plugin versions -->
+		<pluginManagement>
+			<plugins>
+				<plugin>
+					<artifactId>maven-compiler-plugin</artifactId>
+					<version>2.5.1</version>
+				</plugin>
+				<plugin>
+					<groupId>org.apache.maven.plugins</groupId>
+					<artifactId>maven-javadoc-plugin</artifactId>
+					<version>2.8.1</version>
+				</plugin>
+				<plugin>
+					<groupId>org.apache.maven.plugins</groupId>
+					<artifactId>maven-surefire-plugin</artifactId>
+					<version>2.12.3</version>
+				</plugin>
+				<plugin>
+					<artifactId>maven-assembly-plugin</artifactId>
+					<version>2.3</version>
+				</plugin>
+				<plugin>
+					<groupId>org.apache.maven.plugins</groupId>
+					<artifactId>maven-checkstyle-plugin</artifactId>
+					<version>2.9.1</version>
+				</plugin>
+				<plugin>
+					<artifactId>maven-antrun-plugin</artifactId>
+					<version>1.7</version>
+				</plugin>
+				<plugin>
+					<groupId>org.apache.maven.plugins</groupId>
+					<artifactId>maven-dependency-plugin</artifactId>
+					<version>2.5.1</version>
+				</plugin>
+				<plugin>
+					<groupId>org.apache.maven.plugins</groupId>
+					<artifactId>maven-jar-plugin</artifactId>
+					<version>2.4</version>
+				</plugin>
+				<plugin>
+					<groupId>org.codehaus.mojo</groupId>
+					<artifactId>exec-maven-plugin</artifactId>
+					<version>1.2.1</version>
+				</plugin>
+				<!-- Ignore/Execute plugin execution -->
+				<plugin>
+					<groupId>org.eclipse.m2e</groupId>
+					<artifactId>lifecycle-mapping</artifactId>
+					<version>1.0.0</version>
+					<configuration>
+						<lifecycleMappingMetadata>
+							<pluginExecutions>
+								<!-- copy-dependency plugin -->
+								<pluginExecution>
+									<pluginExecutionFilter>
+										<groupId>org.apache.maven.plugins</groupId>
+										<artifactId>maven-dependency-plugin</artifactId>
+										<versionRange>2.5.1</versionRange>
+										<goals>
+											<goal>unpack</goal>
+											<goal>copy-dependencies</goal>
+										</goals>
+									</pluginExecutionFilter>
+									<action>
+										<ignore />
+									</action>
+								</pluginExecution>
+							</pluginExecutions>
+						</lifecycleMappingMetadata>
+					</configuration>
+				</plugin>
+			</plugins>
+		</pluginManagement>
+
+		<plugins>
+			<plugin>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<configuration>
+					<source>1.7</source>
+					<target>1.7</target>
+				</configuration>
+			</plugin>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-surefire-plugin</artifactId>
+			</plugin>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-checkstyle-plugin</artifactId>
+				<configuration>
+					<enableRulesSummary>false</enableRulesSummary>
+					<configLocation>checkstyle.xml</configLocation>
+				</configuration>
+			</plugin>
+			<plugin>
+				<artifactId>maven-javadoc-plugin</artifactId>
+				<executions>
+					<execution>
+						<id>attach-javadocs</id>
+						<phase>deploy</phase>
+						<goals>
+							<goal>jar</goal>
+						</goals>
+					</execution>
+				</executions>
+			</plugin>
+		</plugins>
+	</build>
+</project>

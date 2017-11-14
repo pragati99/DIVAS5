@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<agen:AgentSpec name="default" metaname="Human" xmlns:agen="divas/spec/agent">
+    <agen:AgentAttribute name="Scale" unit="" type="Vector" valuex="1" valuey="1" valuez="1">
+        <agen:category>Physical</agen:category>
+    </agen:AgentAttribute>
+    <agen:AgentAttribute name="Position" unit="" type="Vector" valuex="0.0" valuey="0.0" valuez="0.0">
+        <agen:category>Physical</agen:category>
+    </agen:AgentAttribute>
+    <agen:AgentAttribute name="Velocity" unit="" type="Vector" valuex="0.0" valuey="0.0" valuez="0.0">
+        <agen:category>Physical</agen:category>
+    </agen:AgentAttribute>
+    <agen:AgentAttribute name="Acceleration" unit="" type="Vector" valuex="0.0" valuey="0.0" valuez="0.0">
+        <agen:category>Physical</agen:category>
+    </agen:AgentAttribute>
+    <agen:AgentAttribute name="Heading" unit="" type="Vector" valuex="0.0" valuey="0.0" valuez="0.0">
+        <agen:category>Physical</agen:category>
+    </agen:AgentAttribute>
+    <agen:AgentAttribute name="Weight" unit="pounds" type="Number" value="150">
+        <agen:category>Physical</agen:category>
+    </agen:AgentAttribute>
+    <agen:AgentAttribute name="Height" unit="inches" type="Number" value="70">
+        <agen:category>Physical</agen:category>
+    </agen:AgentAttribute>
+    <agen:AgentAttribute name="Intelligence" unit="IQ" type="Number" value="100">
+        <agen:category>Mental</agen:category>
+    </agen:AgentAttribute>
+    <agen:AgentAttribute name="Strength" unit="hp" type="Number" value="1">
+        <agen:category>Physical</agen:category>
+    </agen:AgentAttribute>
+    <agen:AgentAttribute name="Reach Distance" unit="m" type="DecimalNumber" value="3">
+        <agen:category>Physical</agen:category>
+    </agen:AgentAttribute>
+    <agen:AgentAttribute name="Visible Distance" unit="m" type="DecimalNumber" value="150">
+        <agen:category>Physical</agen:category>
+    </agen:AgentAttribute>
+    <agen:AgentAttribute name="Max Speed" unit="m/s" type="DecimalNumber" value="5">
+        <agen:category>Physical</agen:category>
+    </agen:AgentAttribute>
+    <agen:AgentAttribute name="Desired Speed" unit="" type="DecimalNumber" value="1">
+        <agen:category>Physical</agen:category>
+    </agen:AgentAttribute>
+    <agen:AgentAttribute name="Accoustic Emmision" unit="db" type="DecimalNumber" value="0">
+        <agen:category>Physical</agen:category>
+    </agen:AgentAttribute>
+    <agen:AgentAttribute name="Field of View" unit="degrees" type="DecimalNumber" value="150">
+        <agen:category>Physical</agen:category>
+    </agen:AgentAttribute>
+    <agen:AgentAttribute name="Smell Sensitivity" unit="" type="DecimalNumber" value="0.00000000001">
+        <agen:category>Physical</agen:category>
+    </agen:AgentAttribute>
+    <agen:AgentAttribute name="Minimum Audible Threshold" unit="db" type="DecimalNumber" value="0.2">
+        <agen:category>Physical</agen:category>
+    </agen:AgentAttribute>
+    <agen:DivasTask name="Face">
+        <agen:DivasResult name="Heading" type="Vector"/>
+        <agen:DivasInput name="Heading" type="Vector"/>
+    </agen:DivasTask>
+    <agen:DivasTask name="Move">
+        <agen:DivasResult name="Position" type="Vector"/>
+        <agen:DivasInput name="Position" type="Vector"/>
+    </agen:DivasTask>
+</agen:AgentSpec>

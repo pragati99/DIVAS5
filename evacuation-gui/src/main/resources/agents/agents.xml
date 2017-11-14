@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Agents xmlns="">
+
+	<agentType id="Male" name="Male" type="Male">
+		<agentClass description="Male Tough" modelName="male_tough" type="Male Tough"
+			name="Male Tough" image="thumbnails/male_tough.png">
+			<position x="0" y="0" z="20" />
+			<scale x="1" y="3" z="1" />
+		</agentClass>
+		<agentClass description="Male Tall" modelName="male_tall" type="Male Tall"
+			name="Male Tall" image="thumbnails/male_tall.png">
+			<position x="0" y="0" z="20" />
+			<scale x="1" y="3" z="1" />
+		</agentClass>
+		<agentClass description="Male Fat" modelName="male_fat" type="Male Fat"
+			name="Male Fat" image="thumbnails/male_fat.png">
+			<position x="0" y="0" z="20" />
+			<scale x="1" y="3" z="1" />
+		</agentClass>
+	</agentType>
+	
+	<agentType id="Woman" name="Woman" type="Woman">
+		<agentClass description="Woman Bonus" modelName="woman_bonus" type="Woman Bonus"
+			name="Woman Bonus" image="thumbnails/woman_bonus.png">
+			<position x="0" y="0" z="20" />
+			<scale x="1" y="3" z="1" />
+		</agentClass>
+		<agentClass description="Woman Slim" modelName="woman_slim" type="Woman Slim"
+			name="Woman Slim" image="thumbnails/woman_slim.png">
+			<position x="0" y="0" z="20" />
+			<scale x="1" y="3" z="1" />
+		</agentClass>
+		<agentClass description="Woman Fat" modelName="woman_fat" type="Woman Fat"
+			name="Woman Fat" image="thumbnails/woman_fat.png">
+			<position x="0" y="0" z="20" />
+			<scale x="1" y="3" z="1" />
+		</agentClass>
+	</agentType>
+	
+	<agentType id="Kids" name="Kids" type="Kids">
+		<agentClass description="Boy" modelName="boy_kid" type="Boy"
+			name="Boy" image="thumbnails/boy.png">
+			<position x="0" y="0" z="20" />
+			<scale x="1" y="3" z="1" />
+		</agentClass>
+		<agentClass description="Girl" modelName="girl_kid" type="Girl"
+			name="Girl" image="thumbnails/girl.png">
+			<position x="0" y="0" z="20" />
+			<scale x="1" y="3" z="1" />
+		</agentClass>
+	</agentType>
+</Agents>

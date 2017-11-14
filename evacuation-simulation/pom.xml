@@ -1,0 +1,87 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<!-- ======================================= -->
+	<!-- ==== Project Information === -->
+	<!-- ======================================= -->
+	<parent>
+		<groupId>edu.utdallas.mavs.divas</groupId>
+		<artifactId>divas</artifactId>
+		<version>4.0.19-SNAPSHOT</version>
+	</parent>
+	<artifactId>evacuation-simulation</artifactId>
+	<name>divas-simulation</name>
+	<description>Domain specific simulations in Divas</description>
+
+	<!-- ======================================= -->
+	<!-- ==== Dependencies === -->
+	<!-- ======================================= -->
+
+	<dependencies>
+		<!-- Project Dependencies -->
+		<dependency>
+			<groupId>edu.utdallas.mavs.divas</groupId>
+			<artifactId>divas-core</artifactId>
+		</dependency>
+
+		<!-- General Dependencies -->
+		<dependency>
+			<groupId>com.google.inject</groupId>
+			<artifactId>guice</artifactId>
+			<version>${guice.version}</version>
+		</dependency>
+	</dependencies>
+
+	<!-- ======================================= -->
+	<!-- ==== Plugins === -->
+	<!-- ======================================= -->
+
+	<build>
+		<plugins>
+			<plugin>
+				<artifactId>maven-assembly-plugin</artifactId>
+				<configuration>			
+					<outputDirectory>${project.build.directory}</outputDirectory>
+					<archive>
+						<manifest>
+							<mainClass>edu.utdallas.mavs.evacuation.simulation.EvacuationMain</mainClass>
+						</manifest>
+					</archive>
+					<descriptorRefs>
+						<descriptorRef>jar-with-dependencies</descriptorRef>
+					</descriptorRefs>
+					<appendAssemblyId>false</appendAssemblyId>				
+				</configuration>
+				<executions>
+					<execution>
+						<id>make-assembly</id> <!-- this is used for inheritance merges -->
+						<phase>install</phase> <!-- bind to the packaging phase -->
+						<goals>
+							<goal>single</goal>
+						</goals>
+					</execution>
+				</executions>
+			</plugin>
+			<plugin>
+				<artifactId>maven-antrun-plugin</artifactId>
+				<executions>
+					<execution>
+						<id>copy_resources</id>
+						<phase>install</phase>
+						<configuration>
+							<tasks>
+								<copy todir="${project.build.directory}">
+									<fileset dir="${basedir}" includes="*.properties" />
+								</copy>
+							</tasks>
+						</configuration>
+						<goals>
+							<goal>run</goal>
+						</goals>
+					</execution>
+				</executions>
+			</plugin>
+		</plugins>
+	</build>
+</project>

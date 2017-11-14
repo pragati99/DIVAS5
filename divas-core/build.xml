@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project name="${divas.name}" default="deploy" basedir=".">
+
+	<!-- Setup environment properties -->
+	<property file="build.properties" />
+
+	<!-- Removes Previous Build Output -->
+	<target name="clean" description="Removes Previous Build Output">
+		<echo>Removing Previous Build Output</echo>
+		<delete includeemptydirs="true" quiet="true">
+			<fileset dir="${divas.build.dir}" includes="**/*" />
+		</delete>
+	</target>
+
+	<!-- Initializes the Build Environment -->
+	<target name="init" description="Initializes the Build Environment" depends="clean">
+
+		<!-- Define a reusable classpath -->
+		<echo>Setting classpath</echo>
+		<path id="classpath">
+
+			<!-- Add shared libraries to classpath -->
+			<fileset dir="${divas.lib.dir}">
+				<include name="**/*.jar" />
+				<include name="**/*.dll" />
+			</fileset>
+
+		</path>
+
+		<echo>Creating Output Directories</echo>
+		<mkdir dir="${divas.build.dir}" />
+
+	</target>
+
+	<!-- Compiles the Project Source Code -->
+	<target name="compile" description="Compiles the Project Source Code" depends="init">
+		<echo>Compiling Java Source Code</echo>
+		<javac debug="${divas.compile.debug}" srcdir="${divas.src.dir}" destdir="${divas.build.dir}" classpathref="classpath" />
+	</target>
+
+	<!-- Builds and deploys the project output, a JAR file. -->
+	<target name="deploy" description="Builds the Project Output" depends="compile">
+
+		<manifestclasspath property="manifest.classpath" jarfile="${divas.build.dir}/${divas.jar.name}">
+			<classpath refid="classpath" />
+		</manifestclasspath>
+		
+		<echo>Creating JAR: ${divas.jar.name}</echo>
+		<jar jarfile="${divas.build.dir}/${divas.jar.name}">
+			<fileset dir="${divas.build.dir}" includes="**/*.class" />
+			<fileset dir="${divas.resources.dir}" includes="**/*" />
+			<fileset dir=".">
+				<include name="lib/**/*.jar" />
+				<include name="lib/**/*.dll" />
+			</fileset>
+			<manifest>
+				<attribute name="Class-Path" value="${manifest.classpath}" />
+				<attribute name="Main-Class" value="${divas.mainclass}"/>
+				<attribute name="Implementation-Title" value="${divas.name}" />
+				<attribute name="Implementation-Vendor" value="${divas.vendor}" />
+				<attribute name="Implementation-Version" value="${divas.version}" />
+			</manifest>
+		</jar>
+
+	</target>
+
+	<!-- Signs the output JAR file -->
+	<target name="sign" description="Signs the JAR File" depends="deploy">
+		<signjar jar="${divas.build.dir}/${divas.jar.name}" storepass="${divas.key.pass}" alias="jdc" keystore="${divas.key.keystore}" keypass="${divas.key.pass}" />
+	</target>
+
+	<!-- Generates javadoc comments for the project source code -->
+	<target name="javadoc" description="Generates JavaDoc Comments from Source Code">
+
+		<echo>Removing Previous javadoc Output</echo>
+		<delete includeemptydirs="true" quiet="true">
+			<fileset dir="${divas.doc.dir}" includes="**/*" />
+		</delete>
+
+		<echo>Creating Documentation Output Directories</echo>
+		<mkdir dir="${divas.doc.dir}" />
+
+		<echo>Generating javadoc Comments</echo>
+		<javadoc access="private" author="true" classpathref="classpath" destdir="${divas.doc.dir}" doctitle="${divas.name} API Documentation" nodeprecated="false" nodeprecatedlist="false" noindex="false" nonavbar="false" notree="false" packagenames="divas" source="1.6" sourcepath="${divas.src.dir}" splitindex="true" use="true" version="true" />
+
+	</target>
+
+	<target name="generateSchema" description="Compiles XML Schemas and Generates Schema JAR Files" depends="clean">
+
+		<echo>Removing Previous Schema Build Output</echo>
+		<delete includeemptydirs="true" quiet="true">
+			<fileset dir="${xbean.build.dir}" includes="**/*" />
+		</delete>
+
+		<!-- Define a reusable classpath -->
+		<echo>Setting classpath</echo>
+		<path id="xbean.classpath">
+
+			<!-- Add libraries to classpath -->
+			<fileset dir="${divas.lib.dir}">
+				<include name="xbean.jar" />
+			</fileset>
+
+		</path>
+
+		<taskdef name="xmlbean" classname="org.apache.xmlbeans.impl.tool.XMLBean" classpathref="xbean.classpath" />
+
+		<echo>Generating Agent Specification Schema</echo>
+		<xmlbean schema="${divas.schema.dir}/AgentSpec.xsd" classgendir="${schema.build.dir}/agspec" destfile="${divas.schema.lib.dir}/AgentSpec.jar" classpathref="xbean.classpath" />
+
+	</target>
+
+</project>

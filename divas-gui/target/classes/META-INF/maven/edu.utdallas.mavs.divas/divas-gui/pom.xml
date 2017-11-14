@@ -1,0 +1,190 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<!-- ======================================= -->
+	<!-- ==== Project Information === -->
+	<!-- ======================================= -->
+
+	<parent>
+		<artifactId>divas</artifactId>
+		<groupId>edu.utdallas.mavs.divas</groupId>
+		<version>4.0.19-SNAPSHOT</version>
+	</parent>
+	<artifactId>divas-gui</artifactId>
+	<name>divas-gui</name>
+	<packaging>jar</packaging>
+
+	<!-- ======================================= -->
+	<!-- ==== Properties === -->
+	<!-- ======================================= -->
+
+	<!-- <properties> -->
+	<!-- <fx.home>C:/Program Files/Java/jdk1.7.0_17</fx.home> -->
+	<!-- <fx.rt>${fx.home}/jre/lib/jfxrt.jar</fx.rt> -->
+	<!-- </properties> -->
+
+
+	<!-- ======================================= -->
+	<!-- ==== Dependencies === -->
+	<!-- ======================================= -->
+
+	<dependencies>
+		<!-- Project Dependencies -->
+		<dependency>
+			<groupId>edu.utdallas.mavs.divas</groupId>
+			<artifactId>divas-core</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>edu.utdallas.mavs.divas</groupId>
+			<artifactId>divas-mts</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>edu.utdallas.mavs.divas</groupId>
+			<artifactId>divas-utils</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>edu.utdallas.mavs.divas</groupId>
+			<artifactId>divas-visualization</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>edu.utdallas.mavs.models</groupId>
+			<artifactId>models</artifactId>
+			<version>1.0.4</version>
+		</dependency>
+
+		<!-- General Dependencies -->
+		<dependency>
+			<groupId>com.google.inject</groupId>
+			<artifactId>guice</artifactId>
+			<version>${guice.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>aopalliance</groupId>
+			<artifactId>aopalliance</artifactId>
+			<version>1.0</version>
+		</dependency>
+		<!-- <dependency> -->
+		<!-- JavaFx is not supported by MAVEN due to licensing issues -->
+		<!-- <groupId>com.oracle</groupId> -->
+		<!-- <artifactId>javafx</artifactId> -->
+		<!-- <version>2.2</version> -->
+		<!-- <scope>system</scope> -->
+		<!-- <systemPath>${fx.rt}</systemPath> -->
+		<!-- </dependency> -->
+<!-- 		<dependency> -->
+<!-- 			<groupId>com.pennychecker</groupId> -->
+<!-- 			<artifactId>pennychecker-eventbus</artifactId> -->
+<!-- 			<version>0.0.1</version> -->
+<!-- 		</dependency> -->
+<!-- 		<dependency> -->
+<!-- 			<groupId>com.pennychecker</groupId> -->
+<!-- 			<artifactId>pennychecker-presenter</artifactId> -->
+<!-- 			<version>0.0.1</version> -->
+<!-- 		</dependency> -->
+		<dependency>
+			<groupId>org.apache.activemq</groupId>
+			<artifactId>activemq-core</artifactId>
+			<version>${activeMQ.version}</version>
+		</dependency>
+
+		<!-- JMe3 Dependencies -->
+		<dependency>
+			<groupId>com.jme3</groupId>
+			<artifactId>jme3-core</artifactId>
+			<version>3.0.10</version>
+		</dependency>
+		<!-- LWJGL stuff -->
+		<dependency>
+			<groupId>com.jme3</groupId>
+			<artifactId>jme3-lwjgl</artifactId>
+			<version>3.0.10</version>
+		</dependency>
+<!-- 		<dependency> -->
+<!-- 			<groupId>com.jme3</groupId> -->
+<!-- 			<artifactId>jME3-lwjgl-natives</artifactId> -->
+<!-- 			<version>${jmonkey.version}</version> -->
+<!-- 		</dependency> -->
+<!-- 		<dependency> -->
+<!-- 			<groupId>jme3</groupId> -->
+<!-- 			<artifactId>lwjgl</artifactId> -->
+<!-- 			<version>${jmonkey.version}</version> -->
+<!-- 		</dependency> -->
+	</dependencies>
+
+	<!-- ======================================= -->
+	<!-- ==== Plugins === -->
+	<!-- ======================================= -->
+
+	<!-- <build> -->
+	<!-- <plugins> -->
+	<!-- <plugin> -->
+	<!-- <groupId>org.apache.maven.plugins</groupId> -->
+	<!-- <artifactId>maven-dependency-plugin</artifactId> -->
+	<!-- <executions> -->
+	<!-- <execution> -->
+	<!-- <id>unpack-dependencies</id> -->
+	<!-- <phase>package</phase> -->
+	<!-- <goals> -->
+	<!-- <goal>unpack-dependencies</goal> -->
+	<!-- </goals> -->
+	<!-- <configuration> -->
+	<!-- <excludeTypes>pom</excludeTypes> -->
+	<!-- <excludeScope>system</excludeScope> -->
+	<!-- <excludeGroupIds>junit,org.mockito,org.hamcrest</excludeGroupIds> -->
+	<!-- <excludes>**\/*.xml,**\/*.properties</excludes> -->
+	<!-- <outputDirectory>${project.build.directory}/classes</outputDirectory> -->
+	<!-- </configuration> -->
+	<!-- </execution> -->
+	<!-- </executions> -->
+	<!-- </plugin> -->
+	<!-- <plugin> -->
+	<!-- <groupId>org.codehaus.mojo</groupId> -->
+	<!-- <artifactId>exec-maven-plugin</artifactId> -->
+	<!-- <executions> -->
+	<!-- <execution> -->
+	<!-- <id>unpack-dependencies</id> -->
+	<!-- <phase>package</phase> -->
+	<!-- <goals> -->
+	<!-- <goal>exec</goal> -->
+	<!-- </goals> -->
+	<!-- </execution> -->
+	<!-- </executions> -->
+	<!-- <configuration> -->
+	<!-- <executable>${fx.home}/bin/javafxpackager</executable> -->
+	<!-- <arguments> -->
+	<!-- <argument>-createjar</argument> -->
+	<!-- <argument>-nocss2bin</argument> -->
+	<!-- <argument>-appclass</argument> -->
+	<!-- <argument>edu.utdallas.mavs.divas.gui.DivasGui</argument> -->
+	<!-- <argument>-srcdir</argument> -->
+	<!-- <argument>${project.build.directory}/classes</argument> -->
+	<!-- <argument>-outdir</argument> -->
+	<!-- <argument>../divas-gui/target</argument> -->
+	<!-- <argument>-outfile</argument> -->
+	<!-- <argument>${project.name}-${project.version}</argument> -->
+	<!-- </arguments> -->
+	<!-- </configuration> -->
+	<!-- </plugin> -->
+	<!-- <plugin> -->
+	<!-- <artifactId>maven-antrun-plugin</artifactId> -->
+	<!-- <executions> -->
+	<!-- <execution> -->
+	<!-- <id>copy_resources</id> -->
+	<!-- <phase>install</phase> -->
+	<!-- <configuration> -->
+	<!-- <tasks> -->
+	<!-- <copy todir="${project.build.directory}"> -->
+	<!-- <fileset dir="${basedir}" includes="*.properties" /> -->
+	<!-- </copy> -->
+	<!-- </tasks> -->
+	<!-- </configuration> -->
+	<!-- <goals> -->
+	<!-- <goal>run</goal> -->
+	<!-- </goals> -->
+	<!-- </execution> -->
+	<!-- </executions> -->
+	<!-- </plugin> -->
+	<!-- </plugins> -->
+	<!-- </build> -->
+</project>
